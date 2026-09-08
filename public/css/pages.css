@@ -177,9 +177,52 @@
    ========================================================================== */
 
 .community-header {
-  background-color: var(--color-warm-beige);
-  padding: var(--space-2xl) 0 var(--space-3xl) 0;
-  border-bottom: 1px solid var(--color-border);
+  position: relative;
+  background-color: var(--color-primary-dark);
+  background-image: linear-gradient(rgba(18, 36, 21, 0.72), rgba(18, 36, 21, 0.78)), url('../images/page-header-bg.png');
+  background-size: cover;
+  background-position: center 38%;
+  background-repeat: no-repeat;
+  color: var(--color-white);
+  padding: var(--space-3xl) 0;
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.community-header h1 {
+  color: var(--color-white) !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.community-header p {
+  color: #E6EFE8 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.community-header #comm-tagline {
+  color: #FFFFFF !important;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.community-header #comm-location {
+  color: #A3D9A5 !important;
+}
+
+.community-header .section-eyebrow {
+  color: #A3D9A5 !important;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.community-header a:not(.btn) {
+  color: var(--color-warm-beige);
+}
+
+.community-header .quick-stat-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .community-header-grid {
