@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Details | Evergreen Heritage Communities</title>
+  <meta name="description" content="View lot pricing, available manufactured homes, neighborhood amenities, community guidelines, and office contacts.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-main">
+      <a href="/index.html" class="logo-container" aria-label="Evergreen Heritage Communities Home">
+        <img src="/images/logo.svg" alt="Evergreen Heritage Logo" width="44" height="44">
+        <div class="logo-text">
+          <span class="logo-title">Evergreen Heritage</span>
+          <span class="logo-subtitle">Manufactured Home Communities</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="/index.html" class="nav-link">Home</a></li>
+          <li><a href="/communities.html" class="nav-link active">Our Communities</a></li>
+          <li><a href="/availability.html" class="nav-link">Available Homes &amp; Lots</a></li>
+          <li><a href="/residents.html" class="nav-link">Current Residents</a></li>
+          <li><a href="/about.html" class="nav-link">About Us</a></li>
+          <li><a href="/faq.html" class="nav-link">FAQ</a></li>
+          <li><a href="/contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="/availability.html" class="btn btn-accent nav-cta">View Availability</a>
+      </nav>
+
+      <button type="button" class="menu-toggle" aria-label="Open mobile menu" aria-expanded="false">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-nav-drawer" class="nav-mobile-drawer" role="dialog" aria-modal="true">
+    <div class="nav-mobile-content">
+      <div class="mobile-nav-header">
+        <div class="logo-container">
+          <img src="/images/logo.svg" alt="Logo" width="36" height="36">
+          <span class="logo-title" style="font-size: 1rem;">Evergreen Heritage</span>
+        </div>
+        <button type="button" class="mobile-nav-close">&times;</button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="/index.html" class="mobile-nav-link">Home</a></li>
+        <li><a href="/communities.html" class="mobile-nav-link active">Our Communities</a></li>
+        <li><a href="/availability.html" class="mobile-nav-link">Available Homes &amp; Lots</a></li>
+        <li><a href="/residents.html" class="mobile-nav-link">Current Residents</a></li>
+        <li><a href="/about.html" class="mobile-nav-link">About Us</a></li>
+        <li><a href="/faq.html" class="mobile-nav-link">FAQ</a></li>
+        <li><a href="/contact.html" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <a href="/availability.html" class="btn btn-accent btn-full">View Availability</a>
+    </div>
+  </div>
+
+  <!-- Sticky Mobile Bar -->
+  <nav class="mobile-action-bar">
+    <div class="mobile-action-bar-inner">
+      <a id="comm-mobile-call" href="tel:5128903401" class="mobile-bar-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><span>Call</span></a>
+      <a href="#avail-section" class="mobile-bar-btn highlight"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><span>Availability</span></a>
+      <a id="comm-mobile-directions" href="#" target="_blank" rel="noopener noreferrer" class="mobile-bar-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon><line x1="9" y1="3" x2="9" y2="18"></line><line x1="15" y1="6" x2="15" y2="21"></line></svg><span>Directions</span></a>
+      <a href="#inquiry-section" class="mobile-bar-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><span>Inquire</span></a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- Breadcrumb Nav -->
+    <div style="background-color: var(--color-warm-beige); padding: 12px 0; border-bottom: 1px solid var(--color-beige-dark); font-size: 0.85rem;">
+      <div class="container">
+        <a href="/index.html">Home</a> &gt; <a href="/communities.html">Communities</a> &gt; <span id="comm-breadcrumb" style="font-weight: 600; color: var(--color-charcoal);">Oak Ridge Estates</span>
+      </div>
+    </div>
+
+    <!-- Community Hero Banner -->
+    <section class="community-header">
+      <div class="container">
+        <div class="community-header-grid">
+          <div>
+            <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 8px;">
+              <span id="comm-badge" class="badge badge-available">Lots &amp; Homes Available</span>
+              <span id="comm-location" style="font-size: 0.85rem; font-weight: 700; color: var(--color-primary); text-transform: uppercase;">Round Rock, TX</span>
+            </div>
+            <h1 id="comm-name" style="font-size: clamp(2rem, 3.5vw, 2.8rem); margin-bottom: 8px;">Oak Ridge Estates</h1>
+            <p id="comm-tagline" style="font-size: 1.15rem; color: var(--color-charcoal); font-weight: 500; margin-bottom: 12px;">
+              Comfortable, tree-lined manufactured home living in northern Austin metro.
+            </p>
+            <p id="comm-desc" style="color: var(--color-charcoal-muted); margin-bottom: 24px; line-height: 1.6;">
+              Flagship family-owned community offering peace, shaded yards, and dependable on-site management.
+            </p>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center;">
+              <a href="#avail-section" class="btn btn-accent btn-lg">Check Availability</a>
+              <a id="comm-phone-link" href="tel:5128903401" class="btn btn-primary btn-lg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                Call: <span id="comm-phone-text">(512) 890-3401</span>
+              </a>
+              <a id="comm-directions-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon><line x1="9" y1="3" x2="9" y2="18"></line><line x1="15" y1="6" x2="15" y2="21"></line></svg>
+                Get Directions
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div style="border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-lg); border: 3px solid #fff;">
+              <img id="comm-hero-img" src="/images/communities/oak-ridge.svg" alt="Oak Ridge Estates entrance" width="500" height="320">
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Stats Grid -->
+        <div class="community-quick-stats">
+          <div class="quick-stat-box">
+            <div class="quick-stat-label">Starting Lot Rent</div>
+            <div id="stat-lot-rent" class="quick-stat-val">$545</div>
+          </div>
+          <div class="quick-stat-box">
+            <div class="quick-stat-label">Total Homesites</div>
+            <div id="stat-lots" class="quick-stat-val">148 Sites</div>
+          </div>
+          <div class="quick-stat-box">
+            <div class="quick-stat-label">Neighborhood Type</div>
+            <div id="stat-type" class="quick-stat-val">All-Ages</div>
+          </div>
+          <div class="quick-stat-box">
+            <div class="quick-stat-label">Management Hours</div>
+            <div id="stat-hours" class="quick-stat-val" style="font-size:0.9rem;">Mon–Fri 9am–5pm</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Availability Section -->
+    <section id="avail-section" class="section section-white">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Available Units</span>
+          <h2>Current Openings at This Community</h2>
+          <p>Explore move-in ready manufactured homes for sale, rentals, and available vacant lots ready for your home.</p>
+        </div>
+
+        <div id="comm-listings-container" class="cards-grid">
+          <!-- Populated by community-detail.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Transparent Pricing Breakdown -->
+    <section class="section section-cream">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Honest Numbers</span>
+          <h2>Pricing &amp; Lease Information</h2>
+          <p>We pride ourselves on transparent, predictable rates with no hidden administrative add-ons.</p>
+        </div>
+
+        <div class="pricing-table-wrapper">
+          <table class="pricing-table">
+            <thead>
+              <tr>
+                <th style="width: 28%;">Item / Category</th>
+                <th style="width: 32%;">Rate / Amount</th>
+                <th>Notes &amp; Details</th>
+              </tr>
+            </thead>
+            <tbody id="pricing-table-body">
+              <!-- Populated by community-detail.js -->
+            </tbody>
+          </table>
+        </div>
+
+        <p style="font-size: 0.8rem; color: var(--color-charcoal-light); text-align: center;">
+          * Rates subject to change with standard lease terms. Security deposit and application screening required prior to lease signing.
+        </p>
+      </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Community Features</span>
+          <h2>Neighborhood Amenities</h2>
+          <p>Everything you need for a comfortable, active, and enjoyable neighborhood lifestyle.</p>
+        </div>
+
+        <div id="comm-amenities-grid" class="cards-grid" style="grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));">
+          <!-- Populated by community-detail.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo Gallery Grid -->
+    <section class="section section-cream">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Community Photos</span>
+          <h2>Neighborhood Photo Gallery</h2>
+          <p>Click any photo to enlarge.</p>
+        </div>
+
+        <div id="comm-gallery-grid" class="gallery-grid">
+          <!-- Populated by community-detail.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Location & Nearby Services -->
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Area Conveniences</span>
+          <h2>Location &amp; Nearby Services</h2>
+          <p>Address: <strong id="comm-address-full">4200 Oak Ridge Parkway, Round Rock, TX 78665</strong></p>
+        </div>
+
+        <div class="cards-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+          <div class="feature-card">
+            <div class="feature-icon-wrapper"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></div>
+            <h3>Supermarkets &amp; Shopping</h3>
+            <p id="nearby-grocery">H-E-B Plus!, Walmart, local retail center</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg></div>
+            <h3>Local Schools</h3>
+            <p id="nearby-schools">Elementary, Middle, and High schools nearby</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg></div>
+            <h3>Healthcare &amp; Urgent Care</h3>
+            <p id="nearby-healthcare">Regional hospital and walk-in clinic access</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon><line x1="9" y1="3" x2="9" y2="18"></line><line x1="15" y1="6" x2="15" y2="21"></line></svg></div>
+            <h3>Highways &amp; Commute</h3>
+            <p id="nearby-commute">Quick access to Interstate and regional tollways</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Community Rules Snapshot -->
+    <section class="section section-cream">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Clear Standards</span>
+          <h2>Community Rules Snapshot</h2>
+          <p>Our clear rules protect neighborhood safety, quiet enjoyment, and property values for all residents.</p>
+        </div>
+
+        <div class="rules-snapshot-card">
+          <ul class="rules-list">
+            <li class="rule-item">
+              <span class="rule-badge">Pet Policy</span>
+              <span id="rule-pets-text" class="rule-desc">Up to 2 domestic pets per home. Leash required in common spaces.</span>
+            </li>
+            <li class="rule-item">
+              <span class="rule-badge">Parking</span>
+              <span id="rule-parking-text" class="rule-desc">2 vehicle spaces per homesite. No parking on grass or overnight street parking.</span>
+            </li>
+            <li class="rule-item">
+              <span class="rule-badge">Quiet Hours</span>
+              <span id="rule-quiet-text" class="rule-desc">10:00 PM to 7:00 AM daily for peace of all residents.</span>
+            </li>
+            <li class="rule-item">
+              <span class="rule-badge">Site Upkeep</span>
+              <span id="rule-maint-text" class="rule-desc">Residents maintain personal grass cutting within lot perimeter.</span>
+            </li>
+            <li class="rule-item">
+              <span class="rule-badge">RVs &amp; Storage</span>
+              <span id="rule-rv-text" class="rule-desc">Designated storage area available for resident campers and utility trailers.</span>
+            </li>
+          </ul>
+
+          <div style="background-color: var(--color-warm-beige); padding: 16px; border-radius: var(--radius-sm); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+            <div>
+              <strong>Complete Resident Handbook &amp; Guidelines</strong>
+              <p style="font-size: 0.85rem; color: var(--color-charcoal-muted); margin: 0;">Comprehensive legal rules document provided with every lease agreement.</p>
+            </div>
+            <a href="/residents.html#rules" class="btn btn-secondary btn-sm">Review Full Rules</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Community FAQ -->
+    <section class="section section-white">
+      <div class="container container-narrow">
+        <div class="section-header">
+          <span class="section-eyebrow">Frequently Asked Questions</span>
+          <h2>Common Questions About This Community</h2>
+        </div>
+
+        <div id="comm-faq-list" class="faq-list">
+          <!-- Populated by community-detail.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Community Inquiry & Tour Form -->
+    <section id="inquiry-section" class="section section-cream">
+      <div class="container container-narrow">
+        <div class="section-header">
+          <span class="section-eyebrow">Connect With Us</span>
+          <h2>Schedule a Visit or Request Information</h2>
+          <p>Our on-site community manager will follow up with you promptly.</p>
+        </div>
+
+        <div class="form-wrapper">
+          <form class="js-inquiry-form">
+            <input type="text" name="_hp_company" class="hp-field" tabindex="-1" autocomplete="off">
+            <input type="hidden" id="inquiry-community-select" name="community" value="Oak Ridge Estates">
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="form-name">Full Name <span class="required">*</span></label>
+                <input type="text" id="form-name" name="fullName" class="form-input" required autocomplete="name">
+                <div class="form-error-msg"></div>
+              </div>
+              <div class="form-group">
+                <label for="form-phone">Phone Number <span class="required">*</span></label>
+                <input type="tel" id="form-phone" name="phone" class="form-input" required autocomplete="tel" placeholder="(555) 000-0000">
+                <div class="form-error-msg"></div>
+              </div>
+            </div>
+
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="form-email">Email Address <span class="required">*</span></label>
+                <input type="email" id="form-email" name="email" class="form-input" required autocomplete="email">
+                <div class="form-error-msg"></div>
+              </div>
+              <div class="form-group">
+                <label for="form-interest">What are you interested in?</label>
+                <select id="form-interest" name="interest" class="form-select">
+                  <option value="Available Lot for My Home">Available Lot for My Home</option>
+                  <option value="Home for Sale">Manufactured Home for Sale</option>
+                  <option value="Home for Rent">Manufactured Home for Rent</option>
+                  <option value="Priority Waiting List">Priority Waiting List</option>
+                  <option value="Schedule an On-Site Tour">Schedule an On-Site Tour</option>
+                  <option value="General Question">General Question</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="form-message">Message or Questions</label>
+              <textarea id="form-message" name="message" class="form-textarea" placeholder="Tell us about your home size, move-in timeline, or any questions..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="form-check">
+                <input type="checkbox" required>
+                <span>I consent to be contacted by Evergreen Heritage Communities management regarding this inquiry.</span>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full btn-lg">Request Information</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-container" style="color: #fff;">
+            <img src="/images/logo.svg" alt="Evergreen Heritage Crest" width="40" height="40">
+            <div class="logo-text">
+              <span class="logo-title" style="color: #fff;">Evergreen Heritage</span>
+              <span class="logo-subtitle" style="color: #A9B0B4;">Manufactured Home Communities</span>
+            </div>
+          </div>
+          <p>Providing clean, dependable, and affordable manufactured housing communities across Texas since 1989. Locally owned, professionally managed, and resident-focused.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Communities</h4>
+          <ul class="footer-links">
+            <li><a href="/community.html?id=oak-ridge">Oak Ridge Estates</a></li>
+            <li><a href="/community.html?id=pine-valley">Pine Valley Living</a></li>
+            <li><a href="/community.html?id=cedar-grove">Cedar Grove</a></li>
+            <li><a href="/community.html?id=willow-creek">Willow Creek Village</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resident Resources</h4>
+          <ul class="footer-links">
+            <li><a href="/residents.html">Pay Rent Online</a></li>
+            <li><a href="/maintenance.html">Submit Maintenance</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Equal Housing</h4>
+          <div class="fair-housing-badge" style="color: #E1E4E6;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="M9 22V12h6v10"></path></svg>
+            <span>Equal Housing Opportunity</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 1989–2026 Evergreen Heritage Communities. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+          <a href="/sitemap.xml">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/data.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/community-detail.js"></script>
+  <script src="/js/forms.js"></script>
+</body>
+</html>

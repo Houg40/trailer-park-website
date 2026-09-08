@@ -1,0 +1,26 @@
+{
+  "name": "evergreen-heritage-communities",
+  "version": "1.0.0",
+  "description": "Modern, responsive, trustworthy website for Evergreen Heritage Communities (family-owned manufactured home communities).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "manufactured-homes",
+    "trailer-park",
+    "mobile-homes",
+    "community",
+    "housing"
+  ],
+  "author": "Evergreen Heritage Communities",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}

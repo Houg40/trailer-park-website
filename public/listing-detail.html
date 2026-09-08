@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listing Details | Evergreen Heritage Communities</title>
+  <meta name="description" content="View manufactured home or lot specifications, floor plan photos, monthly pricing, and schedule a tour.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-main">
+      <a href="/index.html" class="logo-container" aria-label="Evergreen Heritage Communities Home">
+        <img src="/images/logo.svg" alt="Evergreen Heritage Logo" width="44" height="44">
+        <div class="logo-text">
+          <span class="logo-title">Evergreen Heritage</span>
+          <span class="logo-subtitle">Manufactured Home Communities</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="/index.html" class="nav-link">Home</a></li>
+          <li><a href="/communities.html" class="nav-link">Our Communities</a></li>
+          <li><a href="/availability.html" class="nav-link active">Available Homes &amp; Lots</a></li>
+          <li><a href="/residents.html" class="nav-link">Current Residents</a></li>
+          <li><a href="/about.html" class="nav-link">About Us</a></li>
+          <li><a href="/faq.html" class="nav-link">FAQ</a></li>
+          <li><a href="/contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="/availability.html" class="btn btn-accent nav-cta">View Availability</a>
+      </nav>
+
+      <button type="button" class="menu-toggle" aria-label="Open mobile navigation menu" aria-expanded="false">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-nav-drawer" class="nav-mobile-drawer" role="dialog" aria-modal="true">
+    <div class="nav-mobile-content">
+      <div class="mobile-nav-header">
+        <div class="logo-container">
+          <img src="/images/logo.svg" alt="Logo" width="36" height="36">
+          <span class="logo-title" style="font-size: 1rem;">Evergreen Heritage</span>
+        </div>
+        <button type="button" class="mobile-nav-close">&times;</button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="/index.html" class="mobile-nav-link">Home</a></li>
+        <li><a href="/communities.html" class="mobile-nav-link">Our Communities</a></li>
+        <li><a href="/availability.html" class="mobile-nav-link active">Available Homes &amp; Lots</a></li>
+        <li><a href="/residents.html" class="mobile-nav-link">Current Residents</a></li>
+        <li><a href="/about.html" class="mobile-nav-link">About Us</a></li>
+        <li><a href="/faq.html" class="mobile-nav-link">FAQ</a></li>
+        <li><a href="/contact.html" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <a href="/availability.html" class="btn btn-accent btn-full">View Availability</a>
+    </div>
+  </div>
+
+  <!-- Sticky Mobile Bar -->
+  <nav class="mobile-action-bar">
+    <div class="mobile-action-bar-inner">
+      <a href="tel:5128903401" class="mobile-bar-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><span>Call</span></a>
+      <a href="/availability.html" class="mobile-bar-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><span>All Units</span></a>
+      <a href="#tour-form" class="mobile-bar-btn highlight"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg><span>Tour</span></a>
+      <a href="/contact.html" class="mobile-bar-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><span>Contact</span></a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- Breadcrumbs -->
+    <div style="background-color: var(--color-warm-beige); padding: 12px 0; border-bottom: 1px solid var(--color-beige-dark); font-size: 0.85rem;">
+      <div class="container">
+        <a href="/index.html">Home</a> &gt; <a href="/availability.html">Available Homes &amp; Lots</a> &gt; <span id="listing-breadcrumb-title" style="font-weight: 600; color: var(--color-charcoal);">Listing Details</span>
+      </div>
+    </div>
+
+    <!-- Main Listing Detail -->
+    <section class="section section-white">
+      <div class="container">
+        <div class="listing-hero-grid">
+          <!-- Left: Gallery & Specs -->
+          <div>
+            <div style="display: flex; gap: 8px; align-items: center; margin-bottom: 8px;">
+              <span id="listing-badge" class="badge badge-available">Available Now</span>
+              <span id="listing-type" class="badge" style="background:#2F3437; color:#fff;">Home for Sale</span>
+              <span id="listing-community-name" style="font-size: 0.85rem; font-weight: 700; color: var(--color-primary);">Oak Ridge Estates</span>
+            </div>
+
+            <h1 id="listing-title" style="font-size: clamp(1.8rem, 3vw, 2.4rem); margin-bottom: 16px;">2024 Clayton Double-Wide</h1>
+
+            <!-- Main Photo -->
+            <div class="listing-main-photo">
+              <img id="listing-main-img" src="/images/listings/home-oakridge-1.svg" alt="Listing Main Photo" style="cursor: pointer;" title="Click to enlarge">
+            </div>
+
+            <!-- Thumbnail Strip -->
+            <div id="listing-thumbs" class="listing-thumbs-row" style="margin-bottom: 32px;">
+              <!-- Populated by listing-detail.js -->
+            </div>
+
+            <!-- Description -->
+            <div style="margin-bottom: 32px;">
+              <h2 style="font-size: 1.35rem; margin-bottom: 12px;">Property Description</h2>
+              <p id="listing-desc" style="font-size: 1.05rem; color: var(--color-charcoal-muted); line-height: 1.7;">
+                Detailed property information loading...
+              </p>
+            </div>
+
+            <!-- Features & Upgrades Checklist -->
+            <div style="margin-bottom: 32px;">
+              <h2 style="font-size: 1.35rem; margin-bottom: 12px;">Key Features &amp; Inclusions</h2>
+              <ul id="listing-features-list" style="list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px;">
+                <!-- Populated by listing-detail.js -->
+              </ul>
+            </div>
+
+            <!-- Community Card Link -->
+            <div style="background-color: var(--color-warm-beige); border-radius: var(--radius-md); padding: 20px; border: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+              <div>
+                <h3 style="font-size: 1.15rem; margin-bottom: 4px;">Explore The Community</h3>
+                <p style="font-size: 0.9rem; color: var(--color-charcoal-muted); margin: 0;">Learn more about on-site amenities, utility hookups, and neighborhood rules.</p>
+              </div>
+              <a id="listing-community-link" href="/communities.html" class="btn btn-secondary">View Community Details</a>
+            </div>
+          </div>
+
+          <!-- Right Sidebar: Pricing & Tour Scheduling Form -->
+          <div>
+            <div id="tour-form" class="listing-sidebar-box">
+              <div style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid var(--color-border-light);">
+                <div style="font-size: 0.8rem; text-transform: uppercase; font-weight: 700; color: var(--color-charcoal-light);">Pricing</div>
+                <div id="listing-price" style="font-family: var(--font-heading); font-size: 2rem; font-weight: 800; color: var(--color-primary-dark); line-height: 1.1;">
+                  $89,900
+                </div>
+                <div id="listing-price-sub" style="font-size: 0.85rem; color: var(--color-charcoal-muted); margin-top: 4px;">
+                  + $545/mo lot rent
+                </div>
+              </div>
+
+              <!-- Specs Summary Table -->
+              <table class="listing-specs-table">
+                <tbody id="listing-specs-tbody">
+                  <!-- Populated by listing-detail.js -->
+                </tbody>
+              </table>
+
+              <!-- Tour & Inquiry Form -->
+              <h3 style="font-size: 1.15rem; margin-bottom: 12px;">Request Information or Tour</h3>
+              <form class="js-inquiry-form">
+                <input type="text" name="_hp_company" class="hp-field" tabindex="-1" autocomplete="off">
+                <input type="hidden" name="interest" value="Listing Inquiry">
+
+                <div class="form-group">
+                  <label for="side-name">Your Name <span class="required">*</span></label>
+                  <input type="text" id="side-name" name="fullName" class="form-input" required autocomplete="name">
+                  <div class="form-error-msg"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="side-email">Email Address <span class="required">*</span></label>
+                  <input type="email" id="side-email" name="email" class="form-input" required autocomplete="email">
+                  <div class="form-error-msg"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="side-phone">Phone Number <span class="required">*</span></label>
+                  <input type="tel" id="side-phone" name="phone" class="form-input" required autocomplete="tel" placeholder="(555) 000-0000">
+                  <div class="form-error-msg"></div>
+                </div>
+
+                <div class="form-group">
+                  <label for="inquiry-message">Questions or Schedule Tour</label>
+                  <textarea id="inquiry-message" name="message" class="form-textarea" style="min-height: 90px;"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-accent btn-full btn-lg">Request Information</button>
+              </form>
+
+              <div style="margin-top: 16px; font-size: 0.78rem; color: var(--color-charcoal-light); line-height: 1.4; text-align: center;">
+                No application fees to inquire or tour. Sensitive personal information (like SSNs) is never collected through this website.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-container" style="color: #fff;">
+            <img src="/images/logo.svg" alt="Evergreen Crest" width="40" height="40">
+            <div class="logo-text">
+              <span class="logo-title" style="color: #fff;">Evergreen Heritage</span>
+              <span class="logo-subtitle" style="color: #A9B0B4;">Manufactured Home Communities</span>
+            </div>
+          </div>
+          <p>Providing clean, dependable, and affordable manufactured housing communities across Texas since 1989.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Communities</h4>
+          <ul class="footer-links">
+            <li><a href="/community.html?id=oak-ridge">Oak Ridge Estates</a></li>
+            <li><a href="/community.html?id=pine-valley">Pine Valley Living</a></li>
+            <li><a href="/community.html?id=cedar-grove">Cedar Grove</a></li>
+            <li><a href="/community.html?id=willow-creek">Willow Creek Village</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resident Hub</h4>
+          <ul class="footer-links">
+            <li><a href="/residents.html">Pay Rent Online</a></li>
+            <li><a href="/maintenance.html">Maintenance Request</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Equal Housing</h4>
+          <div class="fair-housing-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="M9 22V12h6v10"></path></svg>
+            <span>Equal Housing Opportunity</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 1989–2026 Evergreen Heritage Communities. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+          <a href="/sitemap.xml">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/data.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/listing-detail.js"></script>
+  <script src="/js/forms.js"></script>
+</body>
+</html>

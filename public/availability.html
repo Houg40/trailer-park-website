@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Available Manufactured Homes &amp; Lots | Evergreen Heritage Communities</title>
+  <meta name="description" content="Search available manufactured homes for sale, homes for rent, and vacant trailer/mobile home lots across our Texas communities.">
+  <link rel="canonical" href="http://localhost:3000/availability.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-main">
+      <a href="/index.html" class="logo-container" aria-label="Evergreen Heritage Communities Home">
+        <img src="/images/logo.svg" alt="Evergreen Heritage Logo" width="44" height="44">
+        <div class="logo-text">
+          <span class="logo-title">Evergreen Heritage</span>
+          <span class="logo-subtitle">Manufactured Home Communities</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="/index.html" class="nav-link">Home</a></li>
+          <li><a href="/communities.html" class="nav-link">Our Communities</a></li>
+          <li><a href="/availability.html" class="nav-link active">Available Homes &amp; Lots</a></li>
+          <li><a href="/residents.html" class="nav-link">Current Residents</a></li>
+          <li><a href="/about.html" class="nav-link">About Us</a></li>
+          <li><a href="/faq.html" class="nav-link">FAQ</a></li>
+          <li><a href="/contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="/availability.html" class="btn btn-accent nav-cta">View Availability</a>
+      </nav>
+
+      <button type="button" class="menu-toggle" aria-label="Open mobile navigation menu" aria-expanded="false">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-nav-drawer" class="nav-mobile-drawer" role="dialog" aria-modal="true">
+    <div class="nav-mobile-content">
+      <div class="mobile-nav-header">
+        <div class="logo-container">
+          <img src="/images/logo.svg" alt="Logo" width="36" height="36">
+          <span class="logo-title" style="font-size: 1rem;">Evergreen Heritage</span>
+        </div>
+        <button type="button" class="mobile-nav-close">&times;</button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="/index.html" class="mobile-nav-link">Home</a></li>
+        <li><a href="/communities.html" class="mobile-nav-link">Our Communities</a></li>
+        <li><a href="/availability.html" class="mobile-nav-link active">Available Homes &amp; Lots</a></li>
+        <li><a href="/residents.html" class="mobile-nav-link">Current Residents</a></li>
+        <li><a href="/about.html" class="mobile-nav-link">About Us</a></li>
+        <li><a href="/faq.html" class="mobile-nav-link">FAQ</a></li>
+        <li><a href="/contact.html" class="mobile-nav-link">Contact</a></li>
+      </ul>
+      <a href="/availability.html" class="btn btn-accent btn-full">View Availability</a>
+    </div>
+  </div>
+
+  <!-- Sticky Mobile Bar -->
+  <nav class="mobile-action-bar">
+    <div class="mobile-action-bar-inner">
+      <a href="tel:5128903401" class="mobile-bar-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><span>Call</span></a>
+      <a href="/availability.html" class="mobile-bar-btn highlight"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><span>Availability</span></a>
+      <a href="/communities.html#property-map" class="mobile-bar-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon><line x1="9" y1="3" x2="9" y2="18"></line><line x1="15" y1="6" x2="15" y2="21"></line></svg><span>Locations</span></a>
+      <a href="/contact.html" class="mobile-bar-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><span>Contact</span></a>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- Header Banner -->
+    <div class="community-header">
+      <div class="container">
+        <span class="section-eyebrow">Available Inventory</span>
+        <h1 style="font-size: 2.5rem; margin-bottom: 8px;">Available Homes &amp; Homesites</h1>
+        <p style="color: var(--color-charcoal-muted); max-width: 720px; font-size: 1.1rem; line-height: 1.6;">
+          Find your next home or vacant lot across our four Texas communities. Filter by location, housing type, or bedroom count below.
+        </p>
+      </div>
+    </div>
+
+    <!-- Filter & Grid Section -->
+    <section class="section section-white">
+      <div class="container">
+        <div class="filter-bar">
+          <div class="filter-grid">
+            <div class="filter-group">
+              <label for="filter-comm">Select Community</label>
+              <select id="filter-comm" class="filter-control">
+                <option value="all">All Communities</option>
+                <option value="oak-ridge">Oak Ridge Estates (Round Rock)</option>
+                <option value="pine-valley">Pine Valley Living (Tyler)</option>
+                <option value="cedar-grove">Cedar Grove (New Braunfels)</option>
+                <option value="willow-creek">Willow Creek Village (Denton)</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="filter-type">Listing Type</label>
+              <select id="filter-type" class="filter-control">
+                <option value="all">All Types</option>
+                <option value="sale">Manufactured Homes for Sale</option>
+                <option value="rent">Homes for Rent</option>
+                <option value="lot">Vacant Lots Available</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="filter-beds">Bedrooms</label>
+              <select id="filter-beds" class="filter-control">
+                <option value="any">Any Bedrooms</option>
+                <option value="2">2+ Bedrooms</option>
+                <option value="3">3+ Bedrooms</option>
+                <option value="4">4+ Bedrooms</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="filter-search">Keyword Search</label>
+              <input type="text" id="filter-search" class="filter-control" placeholder="Search by size, feature, site #...">
+            </div>
+          </div>
+
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--color-border-light);">
+            <div id="listings-count" style="font-weight: 700; color: var(--color-charcoal); font-size: 0.95rem;">
+              Loading Available Listings...
+            </div>
+            <button type="button" class="btn btn-outline btn-sm" onclick="location.href='/availability.html'">Reset Filters</button>
+          </div>
+        </div>
+
+        <!-- Listings Grid -->
+        <div id="listings-container" class="cards-grid">
+          <!-- Populated by availability.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Priority Waiting List Banner -->
+    <section class="section section-cream">
+      <div class="container" style="max-width: 800px; text-align: center;">
+        <div class="feature-icon-wrapper" style="margin: 0 auto 16px auto; width: 56px; height: 56px;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
+        </div>
+        <h2 style="font-size: 1.85rem; margin-bottom: 12px;">Don't See What You're Looking For?</h2>
+        <p style="color: var(--color-charcoal-muted); font-size: 1.05rem; line-height: 1.6; margin-bottom: 24px;">
+          Because our communities are maintained to high standards with affordable lot rates, turnover is low and units fill fast. Join our free Priority Waiting List to be called before listings hit the public market.
+        </p>
+        <button type="button" class="btn btn-accent btn-lg" onclick="window.openModal('waitlist-modal')">Join Free Priority Waiting List</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal: Priority Waiting List -->
+  <div id="waitlist-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-waitlist-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="modal-waitlist-title">Join Priority Waiting List</h3>
+        <button type="button" class="modal-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="waitlist-form">
+          <input type="text" name="_hp_company" class="hp-field" tabindex="-1" autocomplete="off">
+
+          <div class="form-group">
+            <label for="wl-name">Full Name <span class="required">*</span></label>
+            <input type="text" id="wl-name" name="fullName" class="form-input" required autocomplete="name">
+            <div class="form-error-msg"></div>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="wl-email">Email Address <span class="required">*</span></label>
+              <input type="email" id="wl-email" name="email" class="form-input" required autocomplete="email">
+              <div class="form-error-msg"></div>
+            </div>
+            <div class="form-group">
+              <label for="wl-phone">Phone Number <span class="required">*</span></label>
+              <input type="tel" id="wl-phone" name="phone" class="form-input" required autocomplete="tel" placeholder="(555) 000-0000">
+              <div class="form-error-msg"></div>
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="wl-comm-select">Community Desired</label>
+              <select id="wl-comm-select" name="community" class="form-select">
+                <option value="Any Community">Any Evergreen Community</option>
+                <option value="Oak Ridge Estates">Oak Ridge Estates (Round Rock)</option>
+                <option value="Pine Valley Living">Pine Valley Living (Tyler)</option>
+                <option value="Cedar Grove Community">Cedar Grove (New Braunfels)</option>
+                <option value="Willow Creek Village">Willow Creek Village (Denton)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="wl-housing-type">Housing Type</label>
+              <select id="wl-housing-type" name="desiredType" class="form-select">
+                <option value="Lot for My Own Home">Lot for My Own Home</option>
+                <option value="Manufactured Home for Sale">Home for Sale</option>
+                <option value="Manufactured Home for Rent">Home for Rent</option>
+                <option value="RV / Travel Trailer Site">RV / Trailer Site</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="wl-timing">Move-In Timeline &amp; Notes</label>
+            <textarea id="wl-timing" name="notes" class="form-textarea" placeholder="e.g. Ready in 30 days, need 3 bedrooms, bring own 16x76 home..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-accent btn-full btn-lg">Submit Waiting List Request</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Request Information / Inquire -->
+  <div id="inquiry-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-inquiry-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="modal-inquiry-title">Request Information or Schedule Visit</h3>
+        <button type="button" class="modal-close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form class="js-inquiry-form">
+          <input type="text" name="_hp_company" class="hp-field" tabindex="-1" autocomplete="off">
+          <input type="hidden" id="inquiry-interest" name="interest" value="Listing Inquiry">
+
+          <div class="form-group">
+            <label for="inq-name">Full Name <span class="required">*</span></label>
+            <input type="text" id="inq-name" name="fullName" class="form-input" required autocomplete="name">
+            <div class="form-error-msg"></div>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="inq-email">Email Address <span class="required">*</span></label>
+              <input type="email" id="inq-email" name="email" class="form-input" required autocomplete="email">
+              <div class="form-error-msg"></div>
+            </div>
+            <div class="form-group">
+              <label for="inq-phone">Phone Number <span class="required">*</span></label>
+              <input type="tel" id="inq-phone" name="phone" class="form-input" required autocomplete="tel" placeholder="(555) 000-0000">
+              <div class="form-error-msg"></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inquiry-community">Community</label>
+            <input type="text" id="inquiry-community" name="community" class="form-input" readonly>
+          </div>
+
+          <div class="form-group">
+            <label for="inquiry-message">Questions or Tour Time</label>
+            <textarea id="inquiry-message" name="message" class="form-textarea"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full btn-lg">Send Inquiry</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-container" style="color: #fff;">
+            <img src="/images/logo.svg" alt="Evergreen Crest" width="40" height="40">
+            <div class="logo-text">
+              <span class="logo-title" style="color: #fff;">Evergreen Heritage</span>
+              <span class="logo-subtitle" style="color: #A9B0B4;">Manufactured Home Communities</span>
+            </div>
+          </div>
+          <p>Providing clean, dependable, and affordable manufactured housing communities across Texas since 1989. Locally owned, professionally managed, and resident-focused.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Our Communities</h4>
+          <ul class="footer-links">
+            <li><a href="/community.html?id=oak-ridge">Oak Ridge Estates</a></li>
+            <li><a href="/community.html?id=pine-valley">Pine Valley Living</a></li>
+            <li><a href="/community.html?id=cedar-grove">Cedar Grove</a></li>
+            <li><a href="/community.html?id=willow-creek">Willow Creek Village</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resident Hub</h4>
+          <ul class="footer-links">
+            <li><a href="/residents.html">Pay Rent Online</a></li>
+            <li><a href="/maintenance.html">Maintenance Request</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/contact.html">Contact Management</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Equal Housing</h4>
+          <div class="fair-housing-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="M9 22V12h6v10"></path></svg>
+            <span>Equal Housing Opportunity</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 1989–2026 Evergreen Heritage Communities. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+          <a href="/sitemap.xml">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/data.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/availability.js"></script>
+  <script src="/js/forms.js"></script>
+</body>
+</html>

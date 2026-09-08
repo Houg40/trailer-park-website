@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <circle cx="50" cy="50" r="46" fill="#355E3B" stroke="#234127" stroke-width="2"/>
+  <!-- Evergreen Tree -->
+  <path d="M50 16 L65 42 L57 42 L71 64 L54 64 L54 78 L46 78 L46 64 L29 64 L43 42 L35 42 Z" fill="#EEF5EF"/>
+  <!-- Roof line of home -->
+  <path d="M50 36 L76 56 L72 58 L50 40 L28 58 L24 56 Z" fill="#C9783A"/>
+  <!-- Warm Foundation -->
+  <rect x="42" y="78" width="16" height="6" rx="2" fill="#E3DDD4"/>
+</svg>

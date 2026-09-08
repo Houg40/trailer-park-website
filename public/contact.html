@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Management | Evergreen Heritage Communities</title>
+  <meta name="description" content="Contact Evergreen Heritage Communities. Reach our on-site community managers, main corporate office, or submit an inquiry online.">
+  <link rel="canonical" href="http://localhost:3000/contact.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/components.css">
+  <link rel="stylesheet" href="/css/pages.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-main">
+      <a href="/index.html" class="logo-container" aria-label="Evergreen Heritage Communities Home">
+        <img src="/images/logo.svg" alt="Evergreen Heritage Logo" width="44" height="44">
+        <div class="logo-text">
+          <span class="logo-title">Evergreen Heritage</span>
+          <span class="logo-subtitle">Manufactured Home Communities</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="/index.html" class="nav-link">Home</a></li>
+          <li><a href="/communities.html" class="nav-link">Our Communities</a></li>
+          <li><a href="/availability.html" class="nav-link">Available Homes &amp; Lots</a></li>
+          <li><a href="/residents.html" class="nav-link">Current Residents</a></li>
+          <li><a href="/about.html" class="nav-link">About Us</a></li>
+          <li><a href="/faq.html" class="nav-link">FAQ</a></li>
+          <li><a href="/contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+        <a href="/availability.html" class="btn btn-accent nav-cta">View Availability</a>
+      </nav>
+
+      <button type="button" class="menu-toggle" aria-label="Open mobile navigation menu" aria-expanded="false">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-nav-drawer" class="nav-mobile-drawer" role="dialog" aria-modal="true">
+    <div class="nav-mobile-content">
+      <div class="mobile-nav-header">
+        <div class="logo-container">
+          <img src="/images/logo.svg" alt="Logo" width="36" height="36">
+          <span class="logo-title" style="font-size: 1rem;">Evergreen Heritage</span>
+        </div>
+        <button type="button" class="mobile-nav-close">&times;</button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="/index.html" class="mobile-nav-link">Home</a></li>
+        <li><a href="/communities.html" class="mobile-nav-link">Our Communities</a></li>
+        <li><a href="/availability.html" class="mobile-nav-link">Available Homes &amp; Lots</a></li>
+        <li><a href="/residents.html" class="mobile-nav-link">Current Residents</a></li>
+        <li><a href="/about.html" class="mobile-nav-link">About Us</a></li>
+        <li><a href="/faq.html" class="mobile-nav-link">FAQ</a></li>
+        <li><a href="/contact.html" class="mobile-nav-link active">Contact</a></li>
+      </ul>
+      <a href="/availability.html" class="btn btn-accent btn-full">View Availability</a>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <div class="community-header">
+      <div class="container container-narrow">
+        <span class="section-eyebrow">Get In Touch</span>
+        <h1 style="font-size: 2.5rem; margin-bottom: 8px;">Contact Management</h1>
+        <p style="color: var(--color-charcoal-muted); font-size: 1.1rem; line-height: 1.6;">
+          Have questions about lot availability, scheduling an on-site visit, or moving your home? We are here to help.
+        </p>
+      </div>
+    </div>
+
+    <section class="section section-white">
+      <div class="container">
+        <div class="story-grid">
+          <!-- Left: Contact Details -->
+          <div>
+            <h2 style="font-size: 1.6rem; margin-bottom: 20px;">Corporate &amp; Central Management</h2>
+            
+            <div style="display: flex; flex-direction: column; gap: 20px; margin-bottom: 32px;">
+              <div style="display: flex; gap: 14px; align-items: flex-start;">
+                <div class="feature-icon-wrapper" style="width: 40px; height: 40px; margin: 0;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <strong style="color: var(--color-charcoal);">Main Office &amp; Mailing Address:</strong>
+                  <p style="color: var(--color-charcoal-muted); margin: 0; font-size: 0.95rem;">
+                    Evergreen Heritage Communities<br>
+                    4200 Oak Ridge Parkway<br>
+                    Round Rock, TX 78665
+                  </p>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 14px; align-items: flex-start;">
+                <div class="feature-icon-wrapper" style="width: 40px; height: 40px; margin: 0;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <strong style="color: var(--color-charcoal);">Main Phone &amp; Text Line:</strong>
+                  <p style="margin: 0; font-size: 0.95rem;">
+                    <a href="tel:5128903401" style="font-weight: 700; color: var(--color-primary); font-size: 1.1rem;">(512) 890-3401</a>
+                  </p>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 14px; align-items: flex-start;">
+                <div class="feature-icon-wrapper" style="width: 40px; height: 40px; margin: 0;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <strong style="color: var(--color-charcoal);">Email Address:</strong>
+                  <p style="margin: 0; font-size: 0.95rem;">
+                    <a href="mailto:info@evergreencommunities.com" style="color: var(--color-primary); font-weight: 600;">info@evergreencommunities.com</a>
+                  </p>
+                </div>
+              </div>
+
+              <div style="display: flex; gap: 14px; align-items: flex-start;">
+                <div class="feature-icon-wrapper" style="width: 40px; height: 40px; margin: 0;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <div>
+                  <strong style="color: var(--color-charcoal);">Office Business Hours:</strong>
+                  <p style="color: var(--color-charcoal-muted); margin: 0; font-size: 0.95rem; line-height: 1.4;">
+                    Monday – Friday: 9:00 AM – 5:00 PM CST<br>
+                    Saturday: 10:00 AM – 2:00 PM (By Appointment)<br>
+                    Sunday: Closed (Family &amp; Worship Day)
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Direct Property Managers -->
+            <h3 style="font-size: 1.25rem; margin-bottom: 12px;">Direct Community Office Lines</h3>
+            <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.92rem;">
+              <div><strong>Oak Ridge (Round Rock):</strong> <a href="tel:5128903401">(512) 890-3401</a></div>
+              <div><strong>Pine Valley (Tyler):</strong> <a href="tel:9035907822">(903) 590-7822</a></div>
+              <div><strong>Cedar Grove (New Braunfels):</strong> <a href="tel:8306251190">(830) 625-1190</a></div>
+              <div><strong>Willow Creek (Denton):</strong> <a href="tel:9403879940">(940) 387-9940</a></div>
+            </div>
+
+            <div style="margin-top: 24px; padding: 16px; background-color: var(--color-soft-bg); border-radius: var(--radius-sm); border: 1px solid var(--color-border); font-size: 0.85rem; color: var(--color-charcoal-muted);">
+              <strong>Response Time Expectations:</strong> We review incoming messages every business morning. Most inquiries receive a direct phone call or email response within 1 business day.
+            </div>
+          </div>
+
+          <!-- Right: Contact Form -->
+          <div>
+            <div class="form-wrapper">
+              <h2 style="font-size: 1.4rem; margin-bottom: 16px;">Send Us a Message</h2>
+              <form id="contact-form" class="js-inquiry-form">
+                <!-- Honeypot -->
+                <input type="text" name="_hp_company" class="hp-field" tabindex="-1" autocomplete="off">
+
+                <div class="form-group">
+                  <label for="contact-name">Your Full Name <span class="required">*</span></label>
+                  <input type="text" id="contact-name" name="fullName" class="form-input" required autocomplete="name">
+                  <div class="form-error-msg"></div>
+                </div>
+
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="contact-email">Email Address <span class="required">*</span></label>
+                    <input type="email" id="contact-email" name="email" class="form-input" required autocomplete="email">
+                    <div class="form-error-msg"></div>
+                  </div>
+                  <div class="form-group">
+                    <label for="contact-phone">Phone Number <span class="required">*</span></label>
+                    <input type="tel" id="contact-phone" name="phone" class="form-input" required autocomplete="tel" placeholder="(555) 000-0000">
+                    <div class="form-error-msg"></div>
+                  </div>
+                </div>
+
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="contact-comm">Community of Interest</label>
+                    <select id="contact-comm" name="community" class="form-select">
+                      <option value="General Inquiry">General Company Inquiry</option>
+                      <option value="Oak Ridge Estates">Oak Ridge Estates (Round Rock)</option>
+                      <option value="Pine Valley Living">Pine Valley Living (Tyler)</option>
+                      <option value="Cedar Grove Community">Cedar Grove (New Braunfels)</option>
+                      <option value="Willow Creek Village">Willow Creek Village (Denton)</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="contact-reason">Reason for Contacting</label>
+                    <select id="contact-reason" name="interest" class="form-select">
+                      <option value="Available Lot">Inquiring About an Available Lot</option>
+                      <option value="Home for Sale">Interested in a Home for Sale</option>
+                      <option value="Home for Rent">Interested in a Home for Rent</option>
+                      <option value="Priority Waiting List">Joining Priority Waiting List</option>
+                      <option value="Schedule Tour">Scheduling an On-Site Tour</option>
+                      <option value="Existing Resident Question">Existing Resident Question</option>
+                      <option value="General Question">General Question</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-pref">Preferred Contact Method</label>
+                  <select id="contact-pref" name="preferredContact" class="form-select">
+                    <option value="Phone">Phone Call</option>
+                    <option value="Text">Text Message (SMS)</option>
+                    <option value="Email">Email</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-msg">Your Message or Inquiry</label>
+                  <textarea id="contact-msg" name="message" class="form-textarea" placeholder="How can our management team assist you?" style="min-height: 100px;"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-full btn-lg">Submit Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section section-cream">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Locations</span>
+          <h2>Find Our Offices on the Map</h2>
+        </div>
+        <div class="map-card">
+          <div id="properties-map" class="map-viewport"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-container" style="color: #fff;">
+            <img src="/images/logo.svg" alt="Evergreen Crest" width="40" height="40">
+            <div class="logo-text">
+              <span class="logo-title" style="color: #fff;">Evergreen Heritage</span>
+              <span class="logo-subtitle" style="color: #A9B0B4;">Manufactured Home Communities</span>
+            </div>
+          </div>
+          <p>Providing clean, dependable, and affordable manufactured housing communities across Texas since 1989.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Communities</h4>
+          <ul class="footer-links">
+            <li><a href="/community.html?id=oak-ridge">Oak Ridge Estates</a></li>
+            <li><a href="/community.html?id=pine-valley">Pine Valley Living</a></li>
+            <li><a href="/community.html?id=cedar-grove">Cedar Grove</a></li>
+            <li><a href="/community.html?id=willow-creek">Willow Creek Village</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resident Hub</h4>
+          <ul class="footer-links">
+            <li><a href="/residents.html">Resident Portal</a></li>
+            <li><a href="/maintenance.html">Maintenance Request</a></li>
+            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="/contact.html">Contact Management</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Equal Housing</h4>
+          <div class="fair-housing-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><path d="M9 22V12h6v10"></path></svg>
+            <span>Equal Housing Opportunity</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 1989–2026 Evergreen Heritage Communities. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+          <a href="/sitemap.xml">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="/js/data.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/map.js"></script>
+  <script src="/js/forms.js"></script>
+</body>
+</html>
