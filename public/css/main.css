@@ -137,7 +137,7 @@ a:hover {
   color: var(--color-white);
 }
 
-.section-primary a {
+.section-primary a:not(.btn) {
   color: var(--color-warm-beige);
 }
 
@@ -232,12 +232,12 @@ p:last-child {
 
 .btn-secondary {
   background-color: var(--color-warm-beige);
-  color: var(--color-charcoal);
+  color: var(--color-charcoal) !important;
   border-color: var(--color-beige-dark);
 }
 .btn-secondary:hover {
   background-color: var(--color-beige-dark);
-  color: var(--color-charcoal);
+  color: var(--color-charcoal) !important;
 }
 
 .btn-outline {
