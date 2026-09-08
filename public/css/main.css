@@ -338,9 +338,10 @@ p:last-child {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: var(--max-width-content);
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 var(--space-md);
+  gap: var(--space-md);
 }
 
 .logo-container {
@@ -349,8 +350,10 @@ p:last-child {
   gap: 12px;
   text-decoration: none;
   color: var(--color-charcoal);
+  flex-shrink: 0;
 }
 
+.logo-container img,
 .logo-container svg {
   width: 44px;
   height: 44px;
@@ -360,6 +363,7 @@ p:last-child {
 .logo-text {
   display: flex;
   flex-direction: column;
+  white-space: nowrap;
 }
 
 .logo-title {
@@ -382,24 +386,28 @@ p:last-child {
 .nav-desktop {
   display: flex;
   align-items: center;
-  gap: var(--space-md);
+  gap: 12px;
+  flex-shrink: 0;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 8px;
+  gap: 4px;
   align-items: center;
 }
 
 .nav-link {
-  padding: 8px 12px;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 8px 10px;
   font-family: var(--font-heading);
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   color: var(--color-charcoal);
   border-radius: var(--radius-sm);
   transition: all var(--transition-fast);
+  line-height: 1.2;
 }
 
 .nav-link:hover {
@@ -413,7 +421,12 @@ p:last-child {
 }
 
 .nav-cta {
-  margin-left: var(--space-sm);
+  margin-left: 6px;
+  padding: 10px 18px;
+  font-size: 0.88rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+  min-height: 42px;
 }
 
 /* Mobile Hamburger Button */
@@ -429,6 +442,7 @@ p:last-child {
   min-height: 48px;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .menu-toggle:hover {
@@ -695,6 +709,15 @@ p:last-child {
    RESPONSIVE BREAKPOINTS
    ========================================================================== */
 
+@media (max-width: 1120px) {
+  .nav-desktop {
+    display: none;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+}
+
 @media (max-width: 1024px) {
   .footer-grid {
     grid-template-columns: 1fr 1fr;
@@ -702,13 +725,7 @@ p:last-child {
   }
 }
 
-@media (max-width: 900px) {
-  .nav-desktop {
-    display: none;
-  }
-  .menu-toggle {
-    display: flex;
-  }
+@media (max-width: 768px) {
   .mobile-action-bar {
     display: block;
   }
