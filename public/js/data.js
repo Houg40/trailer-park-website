@@ -75,7 +75,7 @@ window.EHC.FALLBACK_COMMUNITIES = [
     "totalLots": 148,
     "availabilityStatus": "Lots & Homes Available",
     "badgeClass": "badge-available",
-    "image": "images/communities/oak-ridge.svg",
+    "image": "images/listings/home-oakridge-1.jpg",
     "gallery": [
       "images/communities/oak-ridge.svg",
       "images/communities/oak-ridge-street.svg",
@@ -137,7 +137,7 @@ window.EHC.FALLBACK_COMMUNITIES = [
     "totalLots": 112,
     "availabilityStatus": "Homes Available",
     "badgeClass": "badge-available",
-    "image": "images/communities/pine-valley.svg",
+    "image": "images/listings/home-pinevalley-1.jpg",
     "gallery": [
       "images/communities/pine-valley.svg",
       "images/communities/pine-valley-pines.svg",
@@ -199,7 +199,7 @@ window.EHC.FALLBACK_COMMUNITIES = [
     "totalLots": 96,
     "availabilityStatus": "Lots Available",
     "badgeClass": "badge-lots",
-    "image": "images/communities/cedar-grove.svg",
+    "image": "images/listings/home-cedargrove-1.jpg",
     "gallery": [
       "images/communities/cedar-grove.svg",
       "images/communities/cedar-grove-street.svg",
@@ -261,7 +261,7 @@ window.EHC.FALLBACK_COMMUNITIES = [
     "totalLots": 165,
     "availabilityStatus": "Rentals & Lots Available",
     "badgeClass": "badge-available",
-    "image": "images/communities/willow-creek.svg",
+    "image": "images/listings/home-willowcreek-1.jpg",
     "gallery": [
       "images/communities/willow-creek.svg",
       "images/communities/willow-creek-entrance.svg",
@@ -367,7 +367,7 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Ready for Setup",
     "statusBadge": "badge-lots",
     "availabilityDate": "Available Immediately",
-    "image": "images/listings/lot-oakridge-19.svg",
+    "image": "images/listings/home-cedargrove-1.jpg",
     "gallery": [
       "images/listings/lot-oakridge-19.svg",
       "images/communities/oak-ridge-street.svg"
@@ -477,7 +477,7 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-rentals",
     "availabilityDate": "Immediate Move-In",
-    "image": "images/listings/home-rent-pinevalley.svg",
+    "image": "images/listings/home-pinevalley-1.jpg",
     "gallery": [
       "images/listings/home-rent-pinevalley.svg",
       "images/listings/home-interior-living.svg"
@@ -513,7 +513,7 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Ready for Setup",
     "statusBadge": "badge-lots",
     "availabilityDate": "Available Immediately",
-    "image": "images/listings/lot-pinevalley-52.svg",
+    "image": "images/listings/home-pinevalley-1.jpg",
     "gallery": [
       "images/listings/lot-pinevalley-52.svg",
       "images/communities/pine-valley-pines.svg"
@@ -548,7 +548,7 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Ready for Setup",
     "statusBadge": "badge-lots",
     "availabilityDate": "Available Immediately",
-    "image": "images/listings/lot-cedargrove-31.svg",
+    "image": "images/listings/home-rent-oakridge.jpg",
     "gallery": [
       "images/listings/lot-cedargrove-31.svg",
       "images/communities/cedar-grove-street.svg"
@@ -657,7 +657,7 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-rentals",
     "availabilityDate": "Immediate Move-In",
-    "image": "images/listings/home-rent-willowcreek.svg",
+    "image": "images/listings/home-willowcreek-1.jpg",
     "gallery": [
       "images/listings/home-rent-willowcreek.svg",
       "images/listings/home-interior-living.svg",
@@ -694,7 +694,7 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-available",
     "availabilityDate": "Immediate Move-In",
-    "image": "images/listings/lot-rv-willowcreek.svg",
+    "image": "images/listings/home-oakridge-1.jpg",
     "gallery": [
       "images/listings/lot-rv-willowcreek.svg",
       "images/communities/willow-creek-rv.svg"
@@ -730,7 +730,7 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Ready for Setup",
     "statusBadge": "badge-lots",
     "availabilityDate": "Available Immediately",
-    "image": "images/listings/lot-willowcreek-77.svg",
+    "image": "images/listings/home-willowcreek-1.jpg",
     "gallery": [
       "images/listings/lot-willowcreek-77.svg",
       "images/communities/willow-creek-entrance.svg"
