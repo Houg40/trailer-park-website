@@ -328,9 +328,9 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-available",
     "availabilityDate": "Immediate Move-In",
-    "image": "images/listings/home-oakridge-1.svg",
+    "image": "images/listings/home-oakridge-1.jpg",
     "gallery": [
-      "images/listings/home-oakridge-1.svg",
+      "images/listings/home-oakridge-1.jpg",
       "images/listings/home-interior-kitchen.svg",
       "images/listings/home-interior-living.svg",
       "images/listings/home-interior-master.svg"
@@ -403,9 +403,9 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Oct 1",
     "statusBadge": "badge-rentals",
     "availabilityDate": "October 1, 2026",
-    "image": "images/listings/home-rent-oakridge.svg",
+    "image": "images/listings/home-rent-oakridge.jpg",
     "gallery": [
-      "images/listings/home-rent-oakridge.svg",
+      "images/listings/home-rent-oakridge.jpg",
       "images/listings/home-interior-living.svg",
       "images/listings/home-interior-kitchen.svg"
     ],
@@ -440,9 +440,9 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-available",
     "availabilityDate": "Immediate Move-In",
-    "image": "images/listings/home-pinevalley-1.svg",
+    "image": "images/listings/home-pinevalley-1.jpg",
     "gallery": [
-      "images/listings/home-pinevalley-1.svg",
+      "images/listings/home-pinevalley-1.jpg",
       "images/listings/home-interior-kitchen.svg",
       "images/listings/home-interior-living.svg"
     ],
@@ -583,9 +583,9 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-available",
     "availabilityDate": "Immediate Move-In",
-    "image": "images/listings/home-cedargrove-1.svg",
+    "image": "images/listings/home-cedargrove-1.jpg",
     "gallery": [
-      "images/listings/home-cedargrove-1.svg",
+      "images/listings/home-cedargrove-1.jpg",
       "images/listings/home-interior-kitchen.svg",
       "images/listings/home-interior-master.svg"
     ],
@@ -619,9 +619,9 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-available",
     "availabilityDate": "Immediate Move-In",
-    "image": "images/listings/home-willowcreek-1.svg",
+    "image": "images/listings/home-willowcreek-1.jpg",
     "gallery": [
-      "images/listings/home-willowcreek-1.svg",
+      "images/listings/home-willowcreek-1.jpg",
       "images/listings/home-interior-living.svg",
       "images/listings/home-interior-kitchen.svg",
       "images/listings/home-interior-master.svg"
