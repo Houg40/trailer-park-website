@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       ${listing.year ? `<tr><td>Home Year</td><td>${listing.year}</td></tr>` : ''}
       ${listing.lotNumber ? `<tr><td>Site Number</td><td>${listing.lotNumber}</td></tr>` : ''}
       <tr><td>Availability</td><td>${listing.availabilityDate}</td></tr>
-      <tr><td>Community</td><td><a href="/community.html?id=${listing.communityId}">${listing.communityName}</a></td></tr>
+      <tr><td>Community</td><td><a href="community.html?id=${listing.communityId}">${listing.communityName}</a></td></tr>
     `;
   }
 

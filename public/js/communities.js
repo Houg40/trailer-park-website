@@ -118,7 +118,7 @@ function renderCommunities(list) {
         </div>
 
         <div class="community-card-footer">
-          <a href="/community.html?id=${c.id}" class="btn btn-primary btn-full">View Community</a>
+          <a href="community.html?id=${c.id}" class="btn btn-primary btn-full">View Community</a>
         </div>
       </div>
     </article>

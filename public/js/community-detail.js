@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             </div>
 
             <div class="listing-card-footer">
-              <a href="/listing-detail.html?id=${l.id}" class="btn btn-primary btn-full">View Details</a>
+              <a href="listing-detail.html?id=${l.id}" class="btn btn-primary btn-full">View Details</a>
             </div>
           </div>
         </article>

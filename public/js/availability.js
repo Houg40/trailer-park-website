@@ -107,7 +107,7 @@ function renderListings(list) {
         </div>
 
         <div class="listing-card-footer">
-          <a href="/listing-detail.html?id=${l.id}" class="btn btn-outline" style="flex:1;">View Details</a>
+          <a href="listing-detail.html?id=${l.id}" class="btn btn-outline" style="flex:1;">View Details</a>
           <button type="button" class="btn btn-accent" style="flex:1;" onclick="openInquiryForListing('${l.id}', '${l.title.replace(/'/g, "\\'")}', '${l.communityName.replace(/'/g, "\\'")}')">Inquire</button>
         </div>
       </div>

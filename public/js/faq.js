@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div style="text-align: center; padding: 40px; background: #fff; border-radius: 8px; border: 1px solid var(--color-border);">
           <h4 style="margin-bottom: 8px;">No matching questions found</h4>
           <p style="color: var(--color-charcoal-muted); margin-bottom: 16px;">Have a question that isn't answered here? Contact our team directly.</p>
-          <a href="/contact.html" class="btn btn-primary">Contact Management</a>
+          <a href="contact.html" class="btn btn-primary">Contact Management</a>
         </div>
       `;
       return;
