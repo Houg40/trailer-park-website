@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       <tr>
         <td class="pricing-highlight">Security Deposit</td>
         <td>${comm.pricing.securityDeposit}</td>
-        <td>Refundable per standard Texas lease guidelines</td>
+        <td>Refundable per standard Washington State lease guidelines</td>
       </tr>
       <tr>
         <td class="pricing-highlight">Application Fee</td>

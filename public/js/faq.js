@@ -76,12 +76,12 @@ const FAQ_DATA = [
   {
     category: 'utilities',
     q: 'Which internet and cable providers serve your properties?',
-    a: 'Depending on the community, high-speed fiber or cable internet is provided by companies including AT&T Fiber, Spectrum, and Frontier. In our East Texas Pine Valley community, high-speed fixed wireless and satellite broadband are commonly used.'
+    a: 'Depending on the community, high-speed fiber or cable internet is provided by companies including Comcast Xfinity, CenturyLink/Quantum Fiber, and Ziply Fiber. In our Pine Valley Spokane community, high-speed regional broadband and satellite options are also readily available.'
   },
   {
     category: 'utilities',
     q: 'Who do I call to turn on electricity?',
-    a: 'In Texas, residents select their preferred Retail Electric Provider (REP). Simply provide your lot number and street address to your chosen electric company (e.g., TXU, Reliant, Green Mountain) 3 to 5 business days before your move-in date.'
+    a: 'Electric service depends on the community location: Puget Sound Energy (PSE) in Olympia and Puyallup, Avista Utilities in Spokane Valley, and Clark Public Utilities in Vancouver. Simply contact the local utility provider with your lot number and street address 3 to 5 business days before your move-in date.'
   },
 
   // 6. Community Rules

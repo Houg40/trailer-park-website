@@ -1,6 +1,6 @@
 # Evergreen Heritage Communities
 
-> Modern, responsive, and trustworthy website for a family-owned business operating multiple manufactured home communities and trailer parks across Texas (est. 1989).
+> Modern, responsive, and trustworthy website for a family-owned business operating multiple manufactured home communities and trailer parks across Washington State (est. 1989).
 
 ![Evergreen Heritage Communities](public/images/hero-community.svg)
 
@@ -11,10 +11,10 @@
 Designed to communicate warmth, dependability, and stability rather than corporate luxury. Built mobile-first with high accessibility (WCAG 2.2 AA), fast load times, and a dual-mode setup (runs as a Node.js Express app with file uploads and security headers, or as a purely static site on CDNs).
 
 ### Featured Communities
-1. **Oak Ridge Estates** — Round Rock, TX (Austin Metro Area)
-2. **Pine Valley Living** — Tyler, TX (East Texas Piney Woods)
-3. **Cedar Grove Community** — New Braunfels, TX (Hill Country / San Antonio North)
-4. **Willow Creek Village** — Denton, TX (North Dallas / DFW Metro)
+1. **Oak Ridge Estates** — Olympia, WA (South Puget Sound / Capital Region)
+2. **Pine Valley Living** — Spokane, WA (Inland Northwest / Spokane Valley)
+3. **Cedar Grove Community** — Puyallup, WA (Pierce County / Mt. Rainier Valley)
+4. **Willow Creek Village** — Vancouver, WA (SW Washington / Clark County)
 
 ---
 

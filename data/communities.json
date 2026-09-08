@@ -3,15 +3,15 @@
     "id": "oak-ridge",
     "name": "Oak Ridge Estates",
     "slug": "oak-ridge",
-    "tagline": "Comfortable, tree-lined manufactured home living in northern Austin metro.",
-    "address": "4200 Oak Ridge Parkway",
-    "city": "Round Rock",
-    "state": "TX",
-    "zip": "78665",
-    "metro": "Austin Metro Area",
-    "lat": 30.5083,
-    "lng": -97.6789,
-    "phone": "(512) 890-3401",
+    "tagline": "Comfortable, tree-lined manufactured home living in Washington's capital region.",
+    "address": "4200 Oak Ridge Way",
+    "city": "Olympia",
+    "state": "WA",
+    "zip": "98516",
+    "metro": "South Puget Sound / Capital Region",
+    "lat": 47.0379,
+    "lng": -122.8207,
+    "phone": "(360) 890-3401",
     "email": "oakridge@evergreencommunities.com",
     "officeHours": "Mon–Fri: 9:00 AM – 5:00 PM | Sat: 10:00 AM – 2:00 PM | Sun: Closed",
     "communityType": "All-Ages Family Community",
@@ -25,7 +25,7 @@
       "/images/communities/oak-ridge-clubhouse.svg",
       "/images/communities/oak-ridge-playground.svg"
     ],
-    "description": "Oak Ridge Estates is our flagship family-owned community featuring towering shade oaks, newly resurfaced two-lane streets, designated two-vehicle off-street parking, a community center, and lighted walkways. Offering a quiet, neighborly atmosphere just 25 minutes north of downtown Austin.",
+    "description": "Oak Ridge Estates is our flagship family-owned community featuring towering shade trees, newly resurfaced two-lane streets, designated two-vehicle off-street parking, a community center, and lighted walkways. Offering a quiet, neighborly atmosphere just minutes from downtown Olympia and Puget Sound.",
     "pricing": {
       "startingLotRent": "$545 / month",
       "homeRentalStarting": "$1,150 / month",
@@ -54,16 +54,16 @@
       "rvs": "Designated secure RV / camper storage area available for resident lease at $45/mo."
     },
     "nearbyServices": {
-      "grocery": "H-E-B Plus! (1.4 miles), Walmart Supercenter (2.8 miles)",
-      "schools": "Stony Point High School (1.8 mi), Hopewell Middle (2.2 mi), Caldwell Elementary (1.1 mi)",
-      "healthcare": "Baylor Scott & White Medical Center (3.5 miles), Round Rock Urgent Care (1.2 miles)",
-      "commute": "IH-35 access (5 mins), SH-130 Tollway (8 mins), Austin Airport (32 mins)",
-      "recreation": "Old Settlers 640-acre Park & Sports Complex (4 miles), Public Library (2.5 miles)"
+      "grocery": "Safeway (1.5 miles), Costco Wholesale (2.8 miles)",
+      "schools": "North Thurston High School (1.8 mi), Nisqually Middle (2.2 mi), Meadows Elementary (1.1 mi)",
+      "healthcare": "Providence St. Peter Hospital (3.5 miles), MultiCare Indigo Urgent Care (1.2 miles)",
+      "commute": "I-5 corridor access (4 mins), Downtown Olympia (12 mins), JBLM Main Gate (18 mins)",
+      "recreation": "Tolmie State Park on Puget Sound (4 miles), Regional Athletic Complex (2.5 miles)"
     },
     "faqs": [
       {
         "q": "Can I move my own manufactured home to Oak Ridge Estates?",
-        "a": "Yes! We welcome HUD-code compliant homes (2010 or newer) with vinyl siding and pitched shingle roofs. Our site manager conducts a quick exterior photo review and site coordination at no cost."
+        "a": "Yes! We welcome HUD-code compliant homes (2010 or newer) with quality siding and pitched shingle roofs. Our site manager conducts a quick exterior photo review and site coordination at no cost."
       },
       {
         "q": "What utilities are included in the lot rent?",
@@ -80,14 +80,14 @@
     "name": "Pine Valley Living",
     "slug": "pine-valley",
     "tagline": "Peaceful country charm with tall pines, spacious lots, and dependable staff.",
-    "address": "8750 County Road 134",
-    "city": "Tyler",
-    "state": "TX",
-    "zip": "75703",
-    "metro": "East Texas Piney Woods",
-    "lat": 32.3513,
-    "lng": -95.3011,
-    "phone": "(903) 590-7822",
+    "address": "8750 E Valley Pine Road",
+    "city": "Spokane",
+    "state": "WA",
+    "zip": "99206",
+    "metro": "Inland Northwest / Spokane Valley",
+    "lat": 47.6588,
+    "lng": -117.26,
+    "phone": "(509) 590-7822",
     "email": "pinevalley@evergreencommunities.com",
     "officeHours": "Mon–Fri: 9:00 AM – 4:30 PM | Sat: By Appointment | Sun: Closed",
     "communityType": "All-Ages Quiet Residential Community",
@@ -101,14 +101,14 @@
       "/images/communities/pine-valley-homes.svg",
       "/images/communities/pine-valley-picnic.svg"
     ],
-    "description": "Nestled among East Texas pine trees just south of Tyler, Pine Valley offers quiet, nature-embracing residential living. Extra-wide lots provide privacy, garden spaces, and a peaceful retreat with city conveniences only 10 minutes away.",
+    "description": "Nestled among Inland Northwest ponderosa pine trees just east of Spokane, Pine Valley offers quiet, nature-embracing residential living. Extra-wide lots provide privacy, garden spaces, and a peaceful retreat with city conveniences only 10 minutes away.",
     "pricing": {
       "startingLotRent": "$440 / month",
       "homeRentalStarting": "$980 / month",
       "homeSaleStarting": "$59,000",
       "applicationFee": "$35 per adult applicant",
       "securityDeposit": "Equivalent to 1 month's rent (refundable)",
-      "utilitiesIncluded": "Trash collection, well-water system maintenance, common grounds mowing",
+      "utilitiesIncluded": "Trash collection, deep-well water system maintenance, common grounds mowing",
       "utilitiesSeparate": "Electricity, sub-metered community septic system fee ($28/mo flat), satellite/internet",
       "leaseTerms": "12-month standard lease"
     },
@@ -120,21 +120,21 @@
       "Wide Paved Roads with Ample Turnarounds",
       "Clean Community Laundry Facility",
       "Secure Package Lockers",
-      "Storm Shelter Facility"
+      "Community Storm Shelter Facility"
     ],
     "rulesSnapshot": {
       "pets": "Pet-friendly with pre-approval (up to 2 pets). Proof of rabies vaccination required.",
       "parking": "2 vehicle spaces per home site. Boat and utility trailer parking permitted in rear yard with manager sign-off.",
       "quietHours": "9:30 PM to 7:00 AM daily.",
-      "maintenance": "Residents maintain yard borders; pine needle clearance services provided biannually by community crew.",
+      "maintenance": "Residents maintain yard borders; seasonal pine needle clearance services provided biannually by community crew.",
       "rvs": "Short-term visiting family RV hookup available for up to 14 days."
     },
     "nearbyServices": {
-      "grocery": "Brookshire's (2.3 miles), ALDI (4.1 miles)",
-      "schools": "Whitehouse ISD / Tyler Legacy High (3.8 miles), Holloway 6th Grade (2.5 miles)",
-      "healthcare": "UT Health Tyler East Texas Medical Center (6.2 miles), Christus Trinity Mother Frances (5.8 miles)",
-      "commute": "Loop 323 (7 mins), Toll 49 (4 mins), Dallas/Fort Worth (95 mins)",
-      "recreation": "Lake Tyler recreation & boat ramps (12 mins), Faulkner Park (3.5 miles)"
+      "grocery": "Yoke's Fresh Market (2.1 miles), Rosauers Supermarket (3.5 miles)",
+      "schools": "Central Valley High School (3.2 miles), Greenacres Middle (2.1 miles)",
+      "healthcare": "MultiCare Valley Hospital (4.5 miles), Providence Sacred Heart (12 miles)",
+      "commute": "I-90 (6 mins), Pines Rd / Hwy 27 (4 mins), Downtown Spokane (15 mins)",
+      "recreation": "Spokane Valley Mall (8 mins), Dishman Hills Conservation Area (10 mins)"
     },
     "faqs": [
       {
@@ -143,7 +143,7 @@
       },
       {
         "q": "Is the community on city water or well water?",
-        "a": "Pine Valley operates a state-inspected, regularly tested private deep-well water system that provides high-quality East Texas fresh water."
+        "a": "Pine Valley operates a state-inspected, regularly tested private deep-well water system that provides high-quality Washington fresh water."
       },
       {
         "q": "Are there rental homes available right now?",
@@ -155,15 +155,15 @@
     "id": "cedar-grove",
     "name": "Cedar Grove Community",
     "slug": "cedar-grove",
-    "tagline": "Scenic, quiet Hill Country living with spacious shaded lots.",
-    "address": "3100 Gruene River Road",
-    "city": "New Braunfels",
-    "state": "TX",
-    "zip": "78130",
-    "metro": "San Antonio North / Hill Country",
-    "lat": 29.7030,
-    "lng": -98.1245,
-    "phone": "(830) 625-1190",
+    "tagline": "Scenic, quiet South Sound valley living with spacious shaded lots.",
+    "address": "3100 River Road",
+    "city": "Puyallup",
+    "state": "WA",
+    "zip": "98371",
+    "metro": "Pierce County / South Sound",
+    "lat": 47.1954,
+    "lng": -122.3029,
+    "phone": "(253) 625-1190",
     "email": "cedargrove@evergreencommunities.com",
     "officeHours": "Mon–Fri: 9:00 AM – 5:00 PM | Sat: 10:00 AM – 1:00 PM | Sun: Closed",
     "communityType": "Quiet Residential Community (55+ Friendly)",
@@ -177,7 +177,7 @@
       "/images/communities/cedar-grove-porch.svg",
       "/images/communities/cedar-grove-hall.svg"
     ],
-    "description": "Cedar Grove is a tranquil, beautifully maintained manufactured home community located minutes from historic Gruene and the Guadalupe River. Designed for residents seeking peace, pride in homeownership, and friendly neighbors.",
+    "description": "Cedar Grove is a tranquil, beautifully maintained manufactured home community located along River Road with scenic views toward Mount Rainier. Designed for residents seeking peace, pride in homeownership, and friendly neighbors.",
     "pricing": {
       "startingLotRent": "$495 / month",
       "homeRentalStarting": "Call for current rental openings",
@@ -185,11 +185,11 @@
       "applicationFee": "$35 per adult applicant",
       "securityDeposit": "Equivalent to 1 month's rent (refundable)",
       "utilitiesIncluded": "Curbside trash, common area landscape care, community garden water",
-      "utilitiesSeparate": "New Braunfels Utilities (NBU) city water/sewer and electric sub-metered",
+      "utilitiesSeparate": "City of Puyallup municipal water/sewer and electric sub-metered",
       "leaseTerms": "12-month standard lease term"
     },
     "amenities": [
-      "Tranquil Setting with Native Cedar & Oak Trees",
+      "Tranquil Setting with Native Cedars & Evergreen Trees",
       "Community Garden Plots with Raised Beds",
       "Social Clubhouse with Kitchen & Library",
       "Horseshoe Pit & Shuffleboard Court",
@@ -206,11 +206,11 @@
       "rvs": "No permanent RV living; clean RV parking lot for residents' personal travel trailers."
     },
     "nearbyServices": {
-      "grocery": "H-E-B New Braunfels (2.1 miles), Natural Grocers (3.4 miles)",
-      "schools": "Canyon High School (3.1 miles), Church Hill Middle (2.4 miles)",
-      "healthcare": "Resolute Health Hospital (4.2 miles), Christus Santa Rosa Hospital (3.9 miles)",
-      "commute": "IH-35 (6 mins), TX-46 (4 mins), San Antonio (35 mins), San Marcos (18 mins)",
-      "recreation": "Gruene Historic District (2.5 miles), Landa Park & Comal Springs (3.8 miles)"
+      "grocery": "Fred Meyer (1.9 miles), Safeway (2.6 miles)",
+      "schools": "Puyallup High School (2.5 miles), Kalles Junior High (2.1 miles)",
+      "healthcare": "MultiCare Good Samaritan Hospital (3.4 miles), Sound Family Medicine (2.0 miles)",
+      "commute": "SR-167 (4 mins), SR-512 (6 mins), Tacoma (15 mins), Sounder Train Station (8 mins)",
+      "recreation": "Puyallup Riverwalk Trail (1 mile), Bradley Lake Park (3.5 miles)"
     },
     "faqs": [
       {
@@ -231,15 +231,15 @@
     "id": "willow-creek",
     "name": "Willow Creek Village",
     "slug": "willow-creek",
-    "tagline": "Convenient DFW commuter location with new infrastructure and RV sites.",
-    "address": "5820 Willow Creek Lane",
-    "city": "Denton",
-    "state": "TX",
-    "zip": "76208",
-    "metro": "North Dallas / Denton County",
-    "lat": 33.2148,
-    "lng": -97.1331,
-    "phone": "(940) 387-9940",
+    "tagline": "Convenient SW Washington commuter location with new infrastructure and RV sites.",
+    "address": "5820 Willow Creek Way",
+    "city": "Vancouver",
+    "state": "WA",
+    "zip": "98661",
+    "metro": "Southwest Washington / Clark County",
+    "lat": 45.6387,
+    "lng": -122.6115,
+    "phone": "(360) 387-9940",
     "email": "willowcreek@evergreencommunities.com",
     "officeHours": "Mon–Fri: 8:30 AM – 5:00 PM | Sat: 9:00 AM – 3:00 PM | Sun: Closed",
     "communityType": "All-Ages Community with RV / Trailer Section",
@@ -253,7 +253,7 @@
       "/images/communities/willow-creek-rv.svg",
       "/images/communities/willow-creek-pool.svg"
     ],
-    "description": "Located right in thriving Denton County, Willow Creek Village features newly paved roadways, upgraded utility pedestals, and a dedicated extended-stay RV and trailer section in addition to permanent manufactured homes. Perfect for commuters and growing families.",
+    "description": "Located in thriving Clark County, Willow Creek Village features newly paved roadways, upgraded utility pedestals, and a dedicated extended-stay RV and trailer section in addition to permanent manufactured homes. Perfect for commuters and growing families with easy access to Portland.",
     "pricing": {
       "startingLotRent": "$515 / month (Manufactured Home Site)",
       "homeRentalStarting": "$1,100 / month",
@@ -262,13 +262,13 @@
       "applicationFee": "$35 per adult applicant",
       "securityDeposit": "Equivalent to 1 month's rent (refundable)",
       "utilitiesIncluded": "Curbside trash, community lighting, street maintenance",
-      "utilitiesSeparate": "City of Denton electric and water/wastewater sub-metered",
+      "utilitiesSeparate": "City of Vancouver electric and water/wastewater sub-metered",
       "leaseTerms": "12-month lease for home sites; flexible 3/6/12-month leases for RV sites"
     },
     "amenities": [
       "Dedicated Full-Hookup RV & Trailer Section (30/50 Amp)",
       "Sparkling Swimming Pool & Sun Deck",
-      "Upgraded High-Speed Spectrum & Frontier Fiber",
+      "Upgraded High-Speed Fiber Internet Ready",
       "Fenced Pet Exercise Park",
       "Full Basketball Half-Court & Play Area",
       "24/7 Security Camera Coverage at Entrances",
@@ -283,11 +283,11 @@
       "rvs": "RVs in travel section must be fully self-contained, manufactured 2012 or newer, and in clean working condition."
     },
     "nearbyServices": {
-      "grocery": "Kroger Marketplace (1.7 miles), WinCo Foods (3.2 miles)",
-      "schools": "Denton High School (2.6 miles), Calhoun Middle (1.9 miles), Newton Rayzor Elementary (1.3 miles)",
-      "healthcare": "Medical City Denton Hospital (3.1 miles), Texas Health Presbyterian Denton (4.5 miles)",
-      "commute": "I-35E & I-35W split (4 mins), Loop 288 (3 mins), Downtown Dallas (40 mins), DFW Airport (30 mins)",
-      "recreation": "Ray Roberts Lake State Park (15 mins), Denton Square Historic Downtown (2.8 miles)"
+      "grocery": "WinCo Foods (1.8 miles), Safeway (2.5 miles)",
+      "schools": "Fort Vancouver High School (2.2 miles), McLoughlin Middle (1.8 miles)",
+      "healthcare": "PeaceHealth Southwest Medical Center (2.8 miles), Vancouver Clinic (2.1 miles)",
+      "commute": "SR-500 (3 mins), I-205 (6 mins), I-5 (8 mins), Downtown Portland (20 mins)",
+      "recreation": "Vancouver Waterfront Park (12 mins), Burnt Bridge Creek Trail (5 mins)"
     },
     "faqs": [
       {
@@ -295,12 +295,12 @@
         "a": "Yes! Our North Section offers 32 dedicated RV/trailer sites with complete 30/50 amp electric, city water, and direct sewer hookups on month-to-month or annual terms."
       },
       {
-        "q": "How close is the community to University of North Texas (UNT) and TWU?",
-        "a": "We are approximately 8 to 10 minutes from both UNT and Texas Woman's University, making this a popular and affordable option for faculty, staff, and families."
+        "q": "How close is the community to Clark College and downtown Vancouver?",
+        "a": "We are approximately 8 to 10 minutes from both Clark College and the vibrant Vancouver waterfront, making this a popular and affordable option for commuters."
       },
       {
         "q": "Is the swimming pool open year-round?",
-        "a": "The community swimming pool is open seasonally from May 1 through October 15 with daily maintenance and certified chemical balance testing."
+        "a": "The community swimming pool is open seasonally from Memorial Day weekend through Labor Day with daily maintenance and certified chemical balance testing."
       }
     ]
   }

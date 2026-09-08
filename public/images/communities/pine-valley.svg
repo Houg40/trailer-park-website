@@ -87,5 +87,5 @@
   <!-- Banner label overlay -->
   <rect x="24" y="24" width="340" height="68" rx="8" fill="#FFFFFF" opacity="0.92" stroke="#E3DDD4"/>
   <text x="44" y="52" font-family="sans-serif" font-size="20" font-weight="bold" fill="#2F3437">Pine Valley Living</text>
-  <text x="44" y="74" font-family="sans-serif" font-size="13" font-weight="600" fill="#355E3B">Tyler, TX • Peaceful Pine Country</text>
+  <text x="44" y="74" font-family="sans-serif" font-size="13" font-weight="600" fill="#355E3B">Spokane, WA • Peaceful Pine Country</text>
 </svg>

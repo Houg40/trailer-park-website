@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const communities = await window.EHC.getCommunities();
 
-  // Initialize map centered roughly on Texas
+  // Initialize map centered roughly on Washington State
   const map = L.map('properties-map', {
     scrollWheelZoom: false
-  }).setView([31.2, -97.5], 7);
+  }).setView([47.2, -120.5], 7);
 
   // Add OpenStreetMap tiles
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
