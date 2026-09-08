@@ -49,6 +49,20 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (filterBeds) filterBeds.addEventListener('change', updateListings);
   if (filterSearch) filterSearch.addEventListener('input', updateListings);
 
+  const resetBtn = document.getElementById('btn-reset-filters');
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      if (filterComm) filterComm.value = 'all';
+      if (filterType) filterType.value = 'all';
+      if (filterBeds) filterBeds.value = 'any';
+      if (filterSearch) filterSearch.value = '';
+      if (window.history.replaceState) {
+        window.history.replaceState({}, document.title, window.location.pathname);
+      }
+      updateListings();
+    });
+  }
+
   // Initial load
   updateListings();
 });
