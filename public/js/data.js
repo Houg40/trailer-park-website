@@ -75,12 +75,12 @@ window.EHC.FALLBACK_COMMUNITIES = [
     "totalLots": 148,
     "availabilityStatus": "Lots & Homes Available",
     "badgeClass": "badge-available",
-    "image": "/images/communities/oak-ridge.svg",
+    "image": "images/listings/home-oakridge-1.jpg",
     "gallery": [
-      "/images/communities/oak-ridge.svg",
-      "/images/communities/oak-ridge-street.svg",
-      "/images/communities/oak-ridge-clubhouse.svg",
-      "/images/communities/oak-ridge-playground.svg"
+      "images/listings/home-oakridge-1.jpg",
+      "images/communities/oak-ridge-street.svg",
+      "images/communities/oak-ridge-clubhouse.svg",
+      "images/communities/oak-ridge-playground.svg"
     ],
     "description": "Oak Ridge Estates is our flagship family-owned community featuring towering shade trees, newly resurfaced two-lane streets, designated two-vehicle off-street parking, a community center, and lighted walkways. Offering a quiet, neighborly atmosphere just minutes from downtown Olympia and Puget Sound.",
     "pricing": {
@@ -151,12 +151,12 @@ window.EHC.FALLBACK_COMMUNITIES = [
     "totalLots": 112,
     "availabilityStatus": "Homes Available",
     "badgeClass": "badge-available",
-    "image": "/images/communities/pine-valley.svg",
+    "image": "images/listings/home-pinevalley-1.jpg",
     "gallery": [
-      "/images/communities/pine-valley.svg",
-      "/images/communities/pine-valley-pines.svg",
-      "/images/communities/pine-valley-homes.svg",
-      "/images/communities/pine-valley-picnic.svg"
+      "images/listings/home-pinevalley-1.jpg",
+      "images/communities/pine-valley-pines.svg",
+      "images/communities/pine-valley-homes.svg",
+      "images/communities/pine-valley-picnic.svg"
     ],
     "description": "Nestled among Inland Northwest ponderosa pine trees just east of Spokane, Pine Valley offers quiet, nature-embracing residential living. Extra-wide lots provide privacy, garden spaces, and a peaceful retreat with city conveniences only 10 minutes away.",
     "pricing": {
@@ -227,12 +227,12 @@ window.EHC.FALLBACK_COMMUNITIES = [
     "totalLots": 96,
     "availabilityStatus": "Lots Available",
     "badgeClass": "badge-lots",
-    "image": "/images/communities/cedar-grove.svg",
+    "image": "images/listings/home-cedargrove-1.jpg",
     "gallery": [
-      "/images/communities/cedar-grove.svg",
-      "/images/communities/cedar-grove-street.svg",
-      "/images/communities/cedar-grove-porch.svg",
-      "/images/communities/cedar-grove-hall.svg"
+      "images/listings/home-cedargrove-1.jpg",
+      "images/communities/cedar-grove-street.svg",
+      "images/communities/cedar-grove-porch.svg",
+      "images/communities/cedar-grove-hall.svg"
     ],
     "description": "Cedar Grove is a tranquil, beautifully maintained manufactured home community located along River Road with scenic views toward Mount Rainier. Designed for residents seeking peace, pride in homeownership, and friendly neighbors.",
     "pricing": {
@@ -303,12 +303,12 @@ window.EHC.FALLBACK_COMMUNITIES = [
     "totalLots": 165,
     "availabilityStatus": "Rentals & Lots Available",
     "badgeClass": "badge-available",
-    "image": "/images/communities/willow-creek.svg",
+    "image": "images/listings/home-willowcreek-1.jpg",
     "gallery": [
-      "/images/communities/willow-creek.svg",
-      "/images/communities/willow-creek-entrance.svg",
-      "/images/communities/willow-creek-rv.svg",
-      "/images/communities/willow-creek-pool.svg"
+      "images/listings/home-willowcreek-1.jpg",
+      "images/communities/willow-creek-entrance.svg",
+      "images/communities/willow-creek-rv.svg",
+      "images/communities/willow-creek-pool.svg"
     ],
     "description": "Located in thriving Clark County, Willow Creek Village features newly paved roadways, upgraded utility pedestals, and a dedicated extended-stay RV and trailer section in addition to permanent manufactured homes. Perfect for commuters and growing families with easy access to Portland.",
     "pricing": {
@@ -384,12 +384,12 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-available",
     "availabilityDate": "Immediate Move-In",
-    "image": "/images/listings/home-oakridge-1.svg",
+    "image": "images/listings/home-oakridge-1.jpg",
     "gallery": [
-      "/images/listings/home-oakridge-1.svg",
-      "/images/listings/home-interior-kitchen.svg",
-      "/images/listings/home-interior-living.svg",
-      "/images/listings/home-interior-master.svg"
+      "images/listings/home-oakridge-1.jpg",
+      "images/listings/home-interior-kitchen.svg",
+      "images/listings/home-interior-living.svg",
+      "images/listings/home-interior-master.svg"
     ],
     "description": "Brand new 2024 turn-key double-wide manufactured home situated on a prime corner lot at Oak Ridge Estates. Features an open-concept living area, energy-efficient SmartComfort thermal package, kitchen island with breakfast bar, master suite with walk-in closet and dual vanity bathroom.",
     "features": [
@@ -423,10 +423,10 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Ready for Setup",
     "statusBadge": "badge-lots",
     "availabilityDate": "Available Immediately",
-    "image": "/images/listings/lot-oakridge-19.svg",
+    "image": "images/listings/home-cedargrove-1.jpg",
     "gallery": [
-      "/images/listings/lot-oakridge-19.svg",
-      "/images/communities/oak-ridge-street.svg"
+      "images/listings/home-cedargrove-1.jpg",
+      "images/communities/oak-ridge-street.svg"
     ],
     "description": "Premium shaded homesite ready for your HUD-approved manufactured home (single-wide or double-wide up to 28x60). Features mature trees, freshly poured 2-car concrete parking pad, underground 200-amp electrical pedestal, city water/sewer connections, and fiber broadband hookup.",
     "features": [
@@ -459,11 +459,11 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Oct 1",
     "statusBadge": "badge-rentals",
     "availabilityDate": "October 1, 2026",
-    "image": "/images/listings/home-rent-oakridge.svg",
+    "image": "images/listings/home-rent-oakridge.jpg",
     "gallery": [
-      "/images/listings/home-rent-oakridge.svg",
-      "/images/listings/home-interior-living.svg",
-      "/images/listings/home-interior-kitchen.svg"
+      "images/listings/home-rent-oakridge.jpg",
+      "images/listings/home-interior-living.svg",
+      "images/listings/home-interior-kitchen.svg"
     ],
     "description": "Nicely updated 2-bedroom, 2-bathroom rental home featuring new luxury vinyl plank flooring throughout, fresh paint, modern kitchen cabinetry, ceiling fans in all bedrooms, and a shaded private backyard area with storage shed.",
     "features": [
@@ -496,11 +496,11 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-available",
     "availabilityDate": "Immediate Move-In",
-    "image": "/images/listings/home-pinevalley-1.svg",
+    "image": "images/listings/home-pinevalley-1.jpg",
     "gallery": [
-      "/images/listings/home-pinevalley-1.svg",
-      "/images/listings/home-interior-kitchen.svg",
-      "/images/listings/home-interior-living.svg"
+      "images/listings/home-pinevalley-1.jpg",
+      "images/listings/home-interior-kitchen.svg",
+      "images/listings/home-interior-living.svg"
     ],
     "description": "Like-new 3-bedroom, 2-bath manufactured home set on an extra-large private lot flanked by Inland Northwest pines. Includes modern neutral finishes, spacious split-bedroom floor plan for privacy, large family dining area, and sturdy front/rear decks.",
     "features": [
@@ -533,10 +533,10 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-rentals",
     "availabilityDate": "Immediate Move-In",
-    "image": "/images/listings/home-rent-pinevalley.svg",
+    "image": "images/listings/home-pinevalley-1.jpg",
     "gallery": [
-      "/images/listings/home-rent-pinevalley.svg",
-      "/images/listings/home-interior-living.svg"
+      "images/listings/home-pinevalley-1.jpg",
+      "images/listings/home-interior-living.svg"
     ],
     "description": "Affordable, clean, well-cared-for 2-bedroom manufactured home rental in quiet Pine Valley. Enjoy fresh morning coffee on your private wooden deck surrounded by mature trees. Professional on-site maintenance ensures worry-free living.",
     "features": [
@@ -569,10 +569,10 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Ready for Setup",
     "statusBadge": "badge-lots",
     "availabilityDate": "Available Immediately",
-    "image": "/images/listings/lot-pinevalley-52.svg",
+    "image": "images/listings/home-pinevalley-1.jpg",
     "gallery": [
-      "/images/listings/lot-pinevalley-52.svg",
-      "/images/communities/pine-valley-pines.svg"
+      "images/listings/home-pinevalley-1.jpg",
+      "images/communities/pine-valley-pines.svg"
     ],
     "description": "One of our most peaceful home sites in Pine Valley. Generous 65-foot frontage accommodates single-wide or double-wide homes with ample room for a flower garden and storage shed. 200A electric pedestal and deep well water connection installed.",
     "features": [
@@ -604,10 +604,10 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Ready for Setup",
     "statusBadge": "badge-lots",
     "availabilityDate": "Available Immediately",
-    "image": "/images/listings/lot-cedargrove-31.svg",
+    "image": "images/listings/home-rent-oakridge.jpg",
     "gallery": [
-      "/images/listings/lot-cedargrove-31.svg",
-      "/images/communities/cedar-grove-street.svg"
+      "images/listings/home-rent-oakridge.jpg",
+      "images/communities/cedar-grove-street.svg"
     ],
     "description": "Prime residential lot in our tranquil, 55+ friendly Cedar Grove community. Backs up to a quiet greenbelt buffer with mature evergreen trees and mountain valley views. Concrete driveway pad, complete utility hookups, and garden plot ready.",
     "features": [
@@ -639,11 +639,11 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-available",
     "availabilityDate": "Immediate Move-In",
-    "image": "/images/listings/home-cedargrove-1.svg",
+    "image": "images/listings/home-cedargrove-1.jpg",
     "gallery": [
-      "/images/listings/home-cedargrove-1.svg",
-      "/images/listings/home-interior-kitchen.svg",
-      "/images/listings/home-interior-master.svg"
+      "images/listings/home-cedargrove-1.jpg",
+      "images/listings/home-interior-kitchen.svg",
+      "images/listings/home-interior-master.svg"
     ],
     "description": "Immaculate single-wide manufactured home with custom front deck and attached covered carport in Cedar Grove. Upgraded finishes include farmhouse sink, recessed LED lighting, walk-in master shower with bench, and double pane low-E windows.",
     "features": [
@@ -675,12 +675,12 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-available",
     "availabilityDate": "Immediate Move-In",
-    "image": "/images/listings/home-willowcreek-1.svg",
+    "image": "images/listings/home-willowcreek-1.jpg",
     "gallery": [
-      "/images/listings/home-willowcreek-1.svg",
-      "/images/listings/home-interior-living.svg",
-      "/images/listings/home-interior-kitchen.svg",
-      "/images/listings/home-interior-master.svg"
+      "images/listings/home-willowcreek-1.jpg",
+      "images/listings/home-interior-living.svg",
+      "images/listings/home-interior-kitchen.svg",
+      "images/listings/home-interior-master.svg"
     ],
     "description": "Exceptional brand-new 4-bedroom family home at Willow Creek Village. Generous open floor plan featuring a massive kitchen island, dining room, utility mudroom, master suite with soaking tub, and three comfortable guest bedrooms.",
     "features": [
@@ -713,11 +713,11 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-rentals",
     "availabilityDate": "Immediate Move-In",
-    "image": "/images/listings/home-rent-willowcreek.svg",
+    "image": "images/listings/home-willowcreek-1.jpg",
     "gallery": [
-      "/images/listings/home-rent-willowcreek.svg",
-      "/images/listings/home-interior-living.svg",
-      "/images/listings/home-interior-kitchen.svg"
+      "images/listings/home-willowcreek-1.jpg",
+      "images/listings/home-interior-living.svg",
+      "images/listings/home-interior-kitchen.svg"
     ],
     "description": "Move-in ready 3-bedroom rental home with central heat pump/AC, contemporary finishes, all kitchen appliances, and spacious master suite. Located near the community swimming pool and basketball court with easy highway access.",
     "features": [
@@ -750,10 +750,10 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Available Now",
     "statusBadge": "badge-available",
     "availabilityDate": "Immediate Move-In",
-    "image": "/images/listings/lot-rv-willowcreek.svg",
+    "image": "images/listings/home-oakridge-1.jpg",
     "gallery": [
-      "/images/listings/lot-rv-willowcreek.svg",
-      "/images/communities/willow-creek-rv.svg"
+      "images/listings/home-oakridge-1.jpg",
+      "images/communities/willow-creek-rv.svg"
     ],
     "description": "All-inclusive extended stay RV and travel trailer site with 30/50 amp electrical pedestal, city water, direct sewer hookup, and high-speed Wi-Fi. Flat pull-through space with asphalt pad and picnic table.",
     "features": [
@@ -786,10 +786,10 @@ window.EHC.FALLBACK_LISTINGS = [
     "status": "Ready for Setup",
     "statusBadge": "badge-lots",
     "availabilityDate": "Available Immediately",
-    "image": "/images/listings/lot-willowcreek-77.svg",
+    "image": "images/listings/home-willowcreek-1.jpg",
     "gallery": [
-      "/images/listings/lot-willowcreek-77.svg",
-      "/images/communities/willow-creek-entrance.svg"
+      "images/listings/home-willowcreek-1.jpg",
+      "images/communities/willow-creek-entrance.svg"
     ],
     "description": "Ready-to-build homesite ideal for bringing your own new or modern double-wide manufactured home. High-capacity infrastructure, concrete driveway, and friendly neighbors in Vancouver's premier family community.",
     "features": [

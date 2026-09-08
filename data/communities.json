@@ -18,12 +18,12 @@
     "totalLots": 148,
     "availabilityStatus": "Lots & Homes Available",
     "badgeClass": "badge-available",
-    "image": "/images/communities/oak-ridge.svg",
+    "image": "images/listings/home-oakridge-1.jpg",
     "gallery": [
-      "/images/communities/oak-ridge.svg",
-      "/images/communities/oak-ridge-street.svg",
-      "/images/communities/oak-ridge-clubhouse.svg",
-      "/images/communities/oak-ridge-playground.svg"
+      "images/listings/home-oakridge-1.jpg",
+      "images/communities/oak-ridge-street.svg",
+      "images/communities/oak-ridge-clubhouse.svg",
+      "images/communities/oak-ridge-playground.svg"
     ],
     "description": "Oak Ridge Estates is our flagship family-owned community featuring towering shade trees, newly resurfaced two-lane streets, designated two-vehicle off-street parking, a community center, and lighted walkways. Offering a quiet, neighborly atmosphere just minutes from downtown Olympia and Puget Sound.",
     "pricing": {
@@ -94,12 +94,12 @@
     "totalLots": 112,
     "availabilityStatus": "Homes Available",
     "badgeClass": "badge-available",
-    "image": "/images/communities/pine-valley.svg",
+    "image": "images/listings/home-pinevalley-1.jpg",
     "gallery": [
-      "/images/communities/pine-valley.svg",
-      "/images/communities/pine-valley-pines.svg",
-      "/images/communities/pine-valley-homes.svg",
-      "/images/communities/pine-valley-picnic.svg"
+      "images/listings/home-pinevalley-1.jpg",
+      "images/communities/pine-valley-pines.svg",
+      "images/communities/pine-valley-homes.svg",
+      "images/communities/pine-valley-picnic.svg"
     ],
     "description": "Nestled among Inland Northwest ponderosa pine trees just east of Spokane, Pine Valley offers quiet, nature-embracing residential living. Extra-wide lots provide privacy, garden spaces, and a peaceful retreat with city conveniences only 10 minutes away.",
     "pricing": {
@@ -170,12 +170,12 @@
     "totalLots": 96,
     "availabilityStatus": "Lots Available",
     "badgeClass": "badge-lots",
-    "image": "/images/communities/cedar-grove.svg",
+    "image": "images/listings/home-cedargrove-1.jpg",
     "gallery": [
-      "/images/communities/cedar-grove.svg",
-      "/images/communities/cedar-grove-street.svg",
-      "/images/communities/cedar-grove-porch.svg",
-      "/images/communities/cedar-grove-hall.svg"
+      "images/listings/home-cedargrove-1.jpg",
+      "images/communities/cedar-grove-street.svg",
+      "images/communities/cedar-grove-porch.svg",
+      "images/communities/cedar-grove-hall.svg"
     ],
     "description": "Cedar Grove is a tranquil, beautifully maintained manufactured home community located along River Road with scenic views toward Mount Rainier. Designed for residents seeking peace, pride in homeownership, and friendly neighbors.",
     "pricing": {
@@ -246,12 +246,12 @@
     "totalLots": 165,
     "availabilityStatus": "Rentals & Lots Available",
     "badgeClass": "badge-available",
-    "image": "/images/communities/willow-creek.svg",
+    "image": "images/listings/home-willowcreek-1.jpg",
     "gallery": [
-      "/images/communities/willow-creek.svg",
-      "/images/communities/willow-creek-entrance.svg",
-      "/images/communities/willow-creek-rv.svg",
-      "/images/communities/willow-creek-pool.svg"
+      "images/listings/home-willowcreek-1.jpg",
+      "images/communities/willow-creek-entrance.svg",
+      "images/communities/willow-creek-rv.svg",
+      "images/communities/willow-creek-pool.svg"
     ],
     "description": "Located in thriving Clark County, Willow Creek Village features newly paved roadways, upgraded utility pedestals, and a dedicated extended-stay RV and trailer section in addition to permanent manufactured homes. Perfect for commuters and growing families with easy access to Portland.",
     "pricing": {

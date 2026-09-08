@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Link to community page
   const commLink = document.getElementById('listing-community-link');
   if (commLink) {
-    commLink.href = `/community.html?id=${listing.communityId}`;
+    commLink.href = `community.html?id=${listing.communityId}`;
     commLink.textContent = `Explore ${listing.communityName}`;
   }
 
