@@ -70,8 +70,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             Lot Rent from ${c.pricing.startingLotRent.split('/')[0]}/mo
           </div>
           <div style="display: flex; gap: 6px;">
-            <a href="community.html?id=${c.id}" class="btn btn-sm btn-primary" style="padding: 6px 10px; font-size: 0.78rem; text-decoration: none;">View Community</a>
-            <a href="https://www.google.com/maps/dir/?api=1&destination=${c.lat},${c.lng}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary" style="padding: 6px 10px; font-size: 0.78rem; text-decoration: none;">Directions</a>
+            <a href="community.html?id=${c.id}" class="btn btn-sm btn-primary" style="padding: 6px 10px; font-size: 0.78rem; text-decoration: none; color: #FFFFFF !important;">View Community</a>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=${c.lat},${c.lng}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary" style="padding: 6px 10px; font-size: 0.78rem; text-decoration: none; color: #2C3E2D !important;">Directions</a>
           </div>
         </div>
       `;

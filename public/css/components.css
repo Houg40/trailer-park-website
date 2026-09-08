@@ -989,3 +989,19 @@
   color: var(--color-charcoal-muted);
   margin-bottom: 8px;
 }
+
+.leaflet-popup-content a.btn-primary,
+.leaflet-container .leaflet-popup-content a.btn-primary {
+  color: #FFFFFF !important;
+}
+
+.leaflet-popup-content a.btn-primary:hover,
+.leaflet-container .leaflet-popup-content a.btn-primary:hover {
+  color: #FFFFFF !important;
+  background-color: var(--color-primary-dark);
+}
+
+.leaflet-popup-content a.btn-secondary,
+.leaflet-container .leaflet-popup-content a.btn-secondary {
+  color: var(--color-charcoal) !important;
+}
