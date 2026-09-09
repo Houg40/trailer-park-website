@@ -190,11 +190,17 @@
 
 .community-header h1 {
   color: var(--color-white) !important;
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+  line-height: 1.2;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
 }
 
 .community-header p {
   color: #E6EFE8 !important;
+  max-width: 720px;
+  font-size: 1.1rem;
+  line-height: 1.6;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
